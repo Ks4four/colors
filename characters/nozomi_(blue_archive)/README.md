@@ -32,19 +32,21 @@
 | 语义 | Sapphire  | #366DB6 | 制服蓝降低亮度，强调选中或活动标签。          |
 | 语义 | Blue      | #5082CC | 直接采样肩章条纹，用作主链接 / 关键词。       |
 | 语义 | Lavender  | #AAADFF | Blue 向紫移并提亮，作为次级链接或配色平衡。   |
-| 基础 | Surface 0 | #262D49 | Base +5 % L；仅比 Base 略亮，用作极大版心或整页背景，减轻沉闷感。 |
-| 基础 | Surface 1 | #2D3557 | Base +9 % L；面板、折叠块背景，提供一级分层。 |
-| 基础 | Surface 2 | #343D64 | Base +13 % L；代码块 / 卡片背景，仍明显暗于文本，长阅不疲劳。 |
-| 基础 | Overlay 0 | #3B4571 | Base +17 % L；悬浮菜单、popover 等轻量浮层。 |
-| 基础 | Overlay 1 | #424E7F | Base +21 % L；对话框、模态底色。 |
-| 基础 | Overlay 2 | #49568C | Base +25 % L；强调浮层（例如聚焦搜索面板）的最高层。 |
-| 基础 | Subtext 0 | #8E9FC2 | Text −30 % L；次要信息（说明文字、禁用按钮标签），对比降低但保持可读。 |
-| 基础 | Subtext 1 | #AFBBD4 | Text −20 % L；略强于 Subtext 0，用于辅助标题或次级元数据。 |
+
+| Surface 0 | #2C334F | 44 , 51 , 79 | 229 °, 28 %, 24 % | Base +7 L，S -3 （承接 Catppuccin Mocha 规律） |
+| Surface 1 | #3A4265 | 58 , 66 , 101 | 229 °, 27 %, 31 % | Base +14 L，S -4 |
+| Surface 2 | #495279 | 73 , 82 , 121 | 229 °, 25 %, 38 % | Base +21 L，S -6 |
+| Overlay 0 | #586393 | 88 , 99 , 147 | 229 °, 25 %, 46 % | Base +29 L，S -6 |
+| Overlay 1 | #616EA8 | 97 , 110 , 168 | 229 °, 29 %, 52 % | Base +35 L，S -2 |
+| Overlay 2 | #7683BC | 118 , 131 , 188 | 229 °, 34 %, 60 % | Base +43 L，S +3 |
+| Subtext 1 | #DCDFE7 | 220 , 223 , 231 | 220 °, 19 %, 88 % | Text ×0.92 L，Text ×0.63 S |
+| Subtext 0 | #C7CCD4 | 199 , 204 , 212 | 220 °, 12 %, 81 % | Text ×0.84 L，Text ×0.41 S |
+
 ## 移植
 
 ### Neovim
 
-<details>
+<!-- <details>
   <summary>修改 tokyonight.nvim</summary>
 
 ```Lua
@@ -104,7 +106,7 @@
 }
 ```
 
-</details>
+</details> -->
 
 <details>
   <summary>修改 catppuccin</summary>
@@ -114,15 +116,15 @@ latte = {
     crust = "#141827",
     mantle = "#1A1E32",
     base = "#1E2339",
-    surface0 = "#262D49",
-    surface1 = "#2D3557",
-    surface2 = "#343D64",
-    overlay0 = "#3B4571",
-    overlay1 = "#424E7F",
-    overlay2 = "#49568C",
+    surface0 = "#2C334F",
+    surface1 = "#3A4265",
+    surface2 = "#495279",
+    overlay0 = "#586393",
+    overlay1 = "#616EA8",
+    overlay2 = "#7683BC",
     text = "#F2F4F8",
-    subtext0 = "#8E9FC2",
-    subtext1 = "#AFBBD4",
+    subtext0 = "#DCDFE7",
+    subtext1 = "#C7CCD4",
 
     rosewater = "#F4E0D7",
     flamingo = "#F9A8B4",
@@ -148,6 +150,8 @@ latte = {
 ## 生成
 
 要生成，需要和此角色的立绘一起发送至 ChatGPT-o3 中。
+
+此调色板作成时还未引入梯度概念，故需要进行 CoT。
 
 <details>
   <summary>查看 prompt</summary>
