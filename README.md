@@ -4,7 +4,9 @@
 
 ## 使用
 
-如果你喜欢如下角色，可以测试对应的 ports。
+如果你喜欢如下角色，可以查看对应角色的文档。
+
+需要注意的是，对于有 LLM 参与的工作，结果一般是无法复现的，理论上有 seed，但实际上没什么意义。
 
 - [nozomi (blue archive)](./characters/nozomi_(blue_archive)/README.md)
 - mon3tr (arknights)
@@ -189,4 +191,4 @@ return ret
 - `git.change`: 使用 `Blue` 或 `Yellow`。
 
 请在分析完所有规则后，直接输出完整的、已填充所有颜色代码的 Lua 代码块。不需要额外的解释，我只需要最终的代码成品。
-```q
+```
