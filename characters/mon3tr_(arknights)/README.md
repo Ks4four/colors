@@ -155,6 +155,8 @@ Mon3tr 是游戏《明日方舟》及其衍生作品的登场角色。它最初�
 					},
 ```
 
+![mon3tr-screenshot](./img/mon3tr.png)
+
 </details>
 
 ## 生成

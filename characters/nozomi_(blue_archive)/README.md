@@ -145,9 +145,9 @@ latte = {
 },
 ```
 
-</details>
-
 ![nozomi-screenshot](./img/nozomi.png)
+
+</details>
 
 ## 生成
 
