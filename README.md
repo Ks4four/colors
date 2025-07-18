@@ -8,8 +8,8 @@
 
 需要注意的是，对于有 LLM 参与的工作，结果一般是无法复现的，理论上有 seed，但实际上没什么意义。
 
-- [nozomi (blue archive)](./characters/nozomi_(blue_archive)/README.md)
-- mon3tr (arknights)
+- [nozomi (blue archive)](characters/nozomi_(blue_archive)/README.md)
+- [mon3tr (arknights)](characters/mon3tr_(arknights)/README.md)
 
 ## 方法
 
