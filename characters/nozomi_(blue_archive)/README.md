@@ -17,9 +17,7 @@
 | 基础 | Crust     | #141827 | 制服最深阴影再加深，作为最底层背景减少眩光。  |
 | 基础 | Mantle    | #1A1E32 | 在 Crust 之上稍亮一级，供大型面板或分栏使用。 |
 | 基础 | Base      | #1E2339 | 取自制服主色并略微提亮，作为主要代码区背景。  |
-| 基础 | Surface   | #262D45 | 比 Base 再亮一级，供浮层 / 悬停菜单。         |
 | 基础 | Text      | #F2F4F8 | 来自她的白色裤袜，保证暗背景下的高对比正文。  |
-| 基础 | Subtext   | #C3C6D1 | Text 降低亮度 25%，用于注释与次要信息。       |
 | 语义 | Rosewater | #F4E0D7 | 以暖粉作柔和提示；取自肤色高光并减饱和。      |
 | 语义 | Flamingo  | #F9A8B4 | 粉中带橙，表现调皮语气；Rosewater 增饱和。    |
 | 语义 | Pink      | #FFB1D3 | 明艳粉，用于正向高亮；Flamingo 偏紫调。       |
@@ -34,15 +32,14 @@
 | 语义 | Sapphire  | #366DB6 | 制服蓝降低亮度，强调选中或活动标签。          |
 | 语义 | Blue      | #5082CC | 直接采样肩章条纹，用作主链接 / 关键词。       |
 | 语义 | Lavender  | #AAADFF | Blue 向紫移并提亮，作为次级链接或配色平衡。   |
-| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮                |
-| 基础 | Subtext 0 | #B3BAD0 | Text 降低亮度 25%，用作注释                   |
-| 基础 | Surface 0 | #2C406D | Base 再提亮 8%，代码块背板                    |
-| 基础 | Surface 1 | #354C7F | 用于选中行 / 输入框填充                       |
-| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮                |
-| 基础 | Overlay 0 | #4964A0 | 悬浮面板／下拉菜单底色                        |
-| 基础 | Overlay 1 | #546FB0 | Modal 窗口，亮度再提升                        |
-| 基础 | Overlay 2 | #5F7CC1 | Tooltip／通知气泡，使其从背景中弹出           |
-
+| 基础 | Surface 0 | #262D49 | Base +5 % L；仅比 Base 略亮，用作极大版心或整页背景，减轻沉闷感。 |
+| 基础 | Surface 1 | #2D3557 | Base +9 % L；面板、折叠块背景，提供一级分层。 |
+| 基础 | Surface 2 | #343D64 | Base +13 % L；代码块 / 卡片背景，仍明显暗于文本，长阅不疲劳。 |
+| 基础 | Overlay 0 | #3B4571 | Base +17 % L；悬浮菜单、popover 等轻量浮层。 |
+| 基础 | Overlay 1 | #424E7F | Base +21 % L；对话框、模态底色。 |
+| 基础 | Overlay 2 | #49568C | Base +25 % L；强调浮层（例如聚焦搜索面板）的最高层。 |
+| 基础 | Subtext 0 | #8E9FC2 | Text −30 % L；次要信息（说明文字、禁用按钮标签），对比降低但保持可读。 |
+| 基础 | Subtext 1 | #AFBBD4 | Text −20 % L；略强于 Subtext 0，用于辅助标题或次级元数据。 |
 ## 移植
 
 ### Neovim
@@ -117,15 +114,15 @@ latte = {
     crust = "#141827",
     mantle = "#1A1E32",
     base = "#1E2339",
-    surface0 = "#2C406D",
-    surface1 = "#354C7F",
-    surface2 = "#3F588F",
-    overlay0 = "#4964A0",
-    overlay1 = "#546FB0",
-    overlay2 = "#5F7CC1",
+    surface0 = "#262D49",
+    surface1 = "#2D3557",
+    surface2 = "#343D64",
+    overlay0 = "#3B4571",
+    overlay1 = "#424E7F",
+    overlay2 = "#49568C",
     text = "#F2F4F8",
-    subtext0 = "#B3BAD0",
-    subtext1 = "#C3C6D1",
+    subtext0 = "#8E9FC2",
+    subtext1 = "#AFBBD4",
 
     rosewater = "#F4E0D7",
     flamingo = "#F9A8B4",
