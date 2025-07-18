@@ -130,6 +130,9 @@
 
 ### Neovim
 
+自然，在 Catppuccin/nvim 自定义颜色是最简单的。
+当然，也可以选择修改别的主题。
+
 修改 tokyonight.nvim 更为实际。有趣的是，其中蓝色系（blue）的颜色值变化并非循序渐进。因此，在实际使用时，也应当相应地修改这个 prompt。
 
 我发送的新 prompt 如下：
