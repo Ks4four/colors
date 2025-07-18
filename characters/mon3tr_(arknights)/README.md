@@ -2,121 +2,166 @@
 
 ## 简介
 
-Mon3tr是游戏《明日方舟》及其衍生作品的登场角色。它最初以一个陪伴凯尔希的怪异实体形象登场。
+Mon3tr 是游戏《明日方舟》及其衍生作品的登场角色。它最初以一个陪伴凯尔希的怪异实体形象登场。
 
 她的名字是 Mon3tr。
 她的名字读作 “Monster”。
 
 ## 配色
 
-| 分类 | 名称 | Hex 代码 | 设计思路 |
-|---|---|---|---|
-| 基础 | Base | `#141615` | 取自她袖子的近黑墨绿，作为总体背景基调，降低亮度以护眼 |
-| 基础 | Mantle | `#0D0F0E` | Base 再压暗 20%，用作次级面板或浮层底色 |
-| 基础 | Crust | `#010101` | 图像中最深的黑，用于极暗区域与终端黑 |
-| 基础 | Surface 0 | `#1C1F1D` | Base 微亮 10%，用于普通面板背景 |
-| 基础 | Surface 1 | `#222725` | Base 微亮 15%，用于次级卡片 |
-| 基础 | Surface 2 | `#272D2A` | Base 微亮 20%，用于高亮块 (`bg_highlight`) |
-| 基础 | Overlay 0 | `#3F4940` | 来源于外套阴影灰绿，适合作注释/分隔线 |
-| 基础 | Overlay 1 | `#4D6E68` | 契合她衣饰的青蓝灰，比 Overlay0 更醒目 |
-| 基础 | Overlay 2 | `#718158` | 来源于深绿布料高光，最亮 Overlay 层 |
-| 基础 | Text | `#C4B69D` | 采自她偏冷白肤色，调高亮度保证可读性 |
-| 基础 | Subtext 0 | `#8A8170` | Text 降亮 25%，用于次要文本 |
-| 基础 | Subtext 1 | `#A89C86` | Text 降亮 10%，用于强调次级文本 |
-| 语义 | Green | `#8CEA92` | 直接提取晶体的荧光绿，Mon3tr 的标志色 |
-| 语义 | Teal | `#6EE1CA` | 将 Green 色相向青移动 15° 获得的清浅青 |
-| 语义 | Red | `#9C5B5B` | 来自立绘中细节红线，适合警告色 |
-| 语义 | Maroon | `#7A3F3F` | Red 降亮降饱和 20% 的深栗色 |
-| 语义 | Sky | `#9CD4FF` | Blue 提高亮度并加青，作通知色 |
-| 语义 | Sapphire | `#3578E5` | Blue 深化并略增紫感，呈宝石蓝 |
-| 语义 | Blue | `#5AA9F9` | 取自能量刃的冷光蓝，保持高饱和 |
-| 语义 | Lavender | `#C8B6FF` | Blue 向紫移动 30° 得到的柔和浅紫 |
-| 语义 | Rosewater | `#F2D6D8` | Text 提高红调与亮度，呈淡玫瑰粉 |
-| 语义 | Flamingo | `#F5989D` | Red 提高亮度 40%，用于温和提醒 |
-| 语义 | Pink | `#F5A2E5` | Rosewater 增紫得活泼粉 |
-| 语义 | Mauve | `#C592FF` | Lavender 加深饱和，形成亮紫强调 |
-| 语义 | Peach | `#FFBC8C` | Pink 降紫增黄，得到柔和橙 |
-| 语义 | Yellow | `#E1DD8A` | 以 Green 调黄并提亮，用作提示色 |
+| 分类 | 名称      | Hex 代码  | 设计思路                                               |
+| ---- | --------- | --------- | ------------------------------------------------------ |
+| 基础 | Base      | `#141615` | 取自她袖子的近黑墨绿，作为总体背景基调，降低亮度以护眼 |
+| 基础 | Mantle    | `#0D0F0E` | Base 再压暗 20%，用作次级面板或浮层底色                |
+| 基础 | Crust     | `#010101` | 图像中最深的黑，用于极暗区域与终端黑                   |
+| 基础 | Surface 0 | `#1C1F1D` | Base 微亮 10%，用于普通面板背景                        |
+| 基础 | Surface 1 | `#222725` | Base 微亮 15%，用于次级卡片                            |
+| 基础 | Surface 2 | `#272D2A` | Base 微亮 20%，用于高亮块 (`bg_highlight`)             |
+| 基础 | Overlay 0 | `#3F4940` | 来源于外套阴影灰绿，适合作注释/分隔线                  |
+| 基础 | Overlay 1 | `#4D6E68` | 契合她衣饰的青蓝灰，比 Overlay0 更醒目                 |
+| 基础 | Overlay 2 | `#718158` | 来源于深绿布料高光，最亮 Overlay 层                    |
+| 基础 | Text      | `#C4B69D` | 采自她偏冷白肤色，调高亮度保证可读性                   |
+| 基础 | Subtext 0 | `#8A8170` | Text 降亮 25%，用于次要文本                            |
+| 基础 | Subtext 1 | `#A89C86` | Text 降亮 10%，用于强调次级文本                        |
+| 语义 | Green     | `#8CEA92` | 直接提取晶体的荧光绿，Mon3tr 的标志色                  |
+| 语义 | Teal      | `#6EE1CA` | 将 Green 色相向青移动 15° 获得的清浅青                 |
+| 语义 | Red       | `#9C5B5B` | 来自立绘中细节红线，适合警告色                         |
+| 语义 | Maroon    | `#7A3F3F` | Red 降亮降饱和 20% 的深栗色                            |
+| 语义 | Sky       | `#9CD4FF` | Blue 提高亮度并加青，作通知色                          |
+| 语义 | Sapphire  | `#3578E5` | Blue 深化并略增紫感，呈宝石蓝                          |
+| 语义 | Blue      | `#5AA9F9` | 取自能量刃的冷光蓝，保持高饱和                         |
+| 语义 | Lavender  | `#C8B6FF` | Blue 向紫移动 30° 得到的柔和浅紫                       |
+| 语义 | Rosewater | `#F2D6D8` | Text 提高红调与亮度，呈淡玫瑰粉                        |
+| 语义 | Flamingo  | `#F5989D` | Red 提高亮度 40%，用于温和提醒                         |
+| 语义 | Pink      | `#F5A2E5` | Rosewater 增紫得活泼粉                                 |
+| 语义 | Mauve     | `#C592FF` | Lavender 加深饱和，形成亮紫强调                        |
+| 语义 | Peach     | `#FFBC8C` | Pink 降紫增黄，得到柔和橙                              |
+| 语义 | Yellow    | `#E1DD8A` | 以 Green 调黄并提亮，用作提示色                        |
 
 ## 移植
 
 ### Neovim
 
+<details>
+  <summary>修改 tokyonight.nvim </summary>
+
 ```Lua
-	{
-		"folke/tokyonight.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = function()
-			local styles = require("tokyonight.colors").styles
-			styles.nozomi = vim.tbl_extend("force", styles.night, {
-				bg = "#131914",
-				bg_dark = "#010101",
-				bg_dark1 = "#0d0f0e",
-				bg_highlight = "#272d2a",
+{
+"folke/tokyonight.nvim",
+lazy = false,
+priority = 1000,
+opts = function()
+local styles = require("tokyonight.colors").styles
+styles.nozomi = vim.tbl_extend("force", styles.night, {
+bg = "#131914",
+bg_dark = "#010101",
+bg_dark1 = "#0d0f0e",
+bg_highlight = "#272d2a",
 
-				-- Blues
-				blue = "#5aa9f9",
-				blue0 = "#0875e4",
-				blue1 = "#288ff7",
-				blue2 = "#6ab1f9",
-				blue5 = "#9bcbfb",
-				blue6 = "#cce4fd",
-				blue7 = "#065cb3",
+-- Blues
+blue = "#5aa9f9",
+blue0 = "#0875e4",
+blue1 = "#288ff7",
+blue2 = "#6ab1f9",
+blue5 = "#9bcbfb",
+blue6 = "#cce4fd",
+blue7 = "#065cb3",
 
-				-- Text & neutrals
-				comment = "#3f4940",
-				fg = "#c4b69d",
-				fg_dark = "#718158",
-				fg_gutter = "#3f4940",
+-- Text & neutrals
+comment = "#3f4940",
+fg = "#c4b69d",
+fg_dark = "#718158",
+fg_gutter = "#3f4940",
 
-				-- Greens
-				green = "#8cea92",
-				green1 = "#cbf5cd",
-				green2 = "#4cde56",
+-- Greens
+green = "#8cea92",
+green1 = "#cbf5cd",
+green2 = "#4cde56",
 
-				-- Reds
-				red = "#9c5b5b",
-				red1 = "#b07878",
+-- Reds
+red = "#9c5b5b",
+red1 = "#b07878",
 
-				-- Other semantics
-				yellow = "#e1dd8a",
-				orange = "#ffbc8c",
-				purple = "#c592ff",
-				magenta = "#f5a2e5",
-				magenta2 = "#8e1d28",
-				cyan = "#6ee1ca",
-				teal = "#6ee1ca",
+-- Other semantics
+yellow = "#e1dd8a",
+orange = "#ffbc8c",
+purple = "#c592ff",
+magenta = "#f5a2e5",
+magenta2 = "#8e1d28",
+cyan = "#6ee1ca",
+teal = "#6ee1ca",
 
-				-- Dark accents
-				dark3 = "#3f4940",
-				dark5 = "#3f4940",
-				terminal_black = "#8a8170",
+-- Dark accents
+dark3 = "#3f4940",
+dark5 = "#3f4940",
+terminal_black = "#8a8170",
 
-				-- Git
-				git = {
-					add = "#8cea92",
-					change = "#5aa9f9",
-					delete = "#9c5b5b",
-				},
-			})
+-- Git
+git = {
+add = "#8cea92",
+change = "#5aa9f9",
+delete = "#9c5b5b",
+},
+})
 
-			return {
-				style = "nozomi",
-				transparent = false,
-				styles = {
-					sidebars = "transparent",
-					floats = "transparent",
-				},
-			}
-		end,
-	},
+return {
+style = "nozomi",
+transparent = false,
+styles = {
+sidebars = "transparent",
+floats = "transparent",
+},
+}
+end,
+},
 ```
+
+</details>
+
+<details>
+  <summary>修改 catppuccin </summary>
+
+```lua
+latte = {
+	crust = "#141827",
+	mantle = "#1A1E32",
+	base = "#1E2339",
+	surface0 = "#2C406D",
+	surface1 = "#354C7F",
+	surface2 = "#3F588F",
+	overlay0 = "#4964A0",
+	overlay1 = "#546FB0",
+	overlay2 = "#5F7CC1",
+	text = "#F2F4F8",
+	subtext0 = "#B3BAD0",
+	subtext1 = "#C3C6D1",
+	
+	rosewater = "#F4E0D7",
+	flamingo = "#F9A8B4",
+	pink = "#FFB1D3",
+	mauve = "#D1A4E8",
+	red = "#F66D7F",
+	maroon = "#C04554",
+	peach = "#FBBD8D",
+	yellow = "#F7D76A",
+	green = "#C0E89C",
+	teal = "#B7EFD3",
+	sky = "#8FC8FF",
+	sapphire = "#366DB6",
+	blue = "#5082CC",
+	lavender = "#AAADFF",
+},
+```
+
+</details>
 
 ## 生成
 
 要生成，需要和此角色的立绘（精英零）一起发送至 ChatGPT-o3 中。
 
+<details>
+  <summary>查看 prompt</summary>
+	
 ```md
 你是一个专业UI设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
 
@@ -126,32 +171,34 @@ Mon3tr是游戏《明日方舟》及其衍生作品的登场角色。它最初�
 
 - 角色名: Mon3tr
 - 出处: Arknights
-- 核心性格与气质: Mon3tr，她不再坚固、不再锐利、不再暴戾，不再是某些极端特性的载体，这都在提醒我们，刚刚经历的离别如此真实。Mon3tr的各种体征极不稳定，这并不是说她的这具新身体出现了病变，而是说明她处于一种加速催化与形塑的常态中——换个浅显易懂的说法，她的这具新身体还没有真正完成。由于配色和黑绿色魔爪能量饮料的包装相似，且两者英文名字同为Monster，因此受到了一些调侃玩梗。
+- 核心性格与气质: Mon3tr，她不再坚固、不再锐利、不再暴戾，不再是某些极端特性的载体，这都在提醒我们，刚刚经历的离别如此真实。Mon3tr 的各种体征极不稳定，这并不是说她的这具新身体出现了病变，而是说明她处于一种加速催化与形塑的常态中——换个浅显易懂的说法，她的这具新身体还没有真正完成。由于配色和黑绿色魔爪能量饮料的包装相似，且两者英文名字同为 Monster，因此受到了一些调侃玩梗。
 - 期望的调色板感觉: 观察到这个角色整体偏绿，但是服装有黑有绿，故可以考虑以她衣服上近黑的特点为 base 或者 bg，然后再考虑绿色来作为语义色。
 - 我还发送了她的立绘，名为 mon3tr.png。
 
 ### 2. 核心颜色基准
- 
+
 - 主要基调色 (用于背景): 观察到她的袖子（而不是袖口）是近绿的黑色，以此为 base 可行。分析并提取她的袖子的颜色。需要注意的是背景颜色应该是一种非常靠近黑色的颜色，以便于长时间观看屏幕。
 - 核心文本色 (用于文字): 观察到她拥有人类的肤色，但是并不是人类，她显然更白。分析并提取她的肤色来作为文本色。
 - 第一强调色 (最标志性的颜色): 她和明亮的绿色晶体有关。分析并提取这种晶体的亮绿色。
-- 第二强调色 (次要特色):  mon3tr.png 有不显眼的红色，找到并提取这种红色。
+- 第二强调色 (次要特色): mon3tr.png 有不显眼的红色，找到并提取这种红色。
 
 ## 3. 设计任务与色彩学要求
 
 请根据上述**核心颜色基准**，填充以下的调色板结构。
+
 - 推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
 - 风格指令：
-    - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 以**主要基调色 (base)**为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
-    - 文本色 (Text, Subtext 0, Subtext 1): 以**核心文本色 (text)**为基础创建不同亮度的版本，确保清晰易读。对于 Subtext，数字越大则越亮。
-    - 语义色: 必须体现用户描述的**核心性格与气质**。它们需要比基础色更鲜明，但又不能过于刺眼。
-        - `Green`, `Teal` 应该从第一强调色的来源提取出来。
-        - `Red`、`Maroon` 应该从第二强调色的来源提取出来。
-        - `Sky`、`Sapphire`、`Blue`、`Lavender`、`Rosewater`、`Flamingo`、`Pink`、`Mauve`、`Peach`、`Yellow` 应该使用色彩学知识来生成。
+  - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 以**主要基调色 (base)**为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
+  - 文本色 (Text, Subtext 0, Subtext 1): 以**核心文本色 (text)**为基础创建不同亮度的版本，确保清晰易读。对于 Subtext，数字越大则越亮。
+  - 语义色: 必须体现用户描述的**核心性格与气质**。它们需要比基础色更鲜明，但又不能过于刺眼。
+    - `Green`, `Teal` 应该从第一强调色的来源提取出来。
+    - `Red`、`Maroon` 应该从第二强调色的来源提取出来。
+    - `Sky`、`Sapphire`、`Blue`、`Lavender`、`Rosewater`、`Flamingo`、`Pink`、`Mauve`、`Peach`、`Yellow` 应该使用色彩学知识来生成。
 
 ## 4. 输出格式
- 
-请以Markdown表格的形式返回最终的调色板，包含以下列：
+
+请以 Markdown 表格的形式返回最终的调色板，包含以下列：
+
 - 分类 (Category): 语义 (Semantic) 或 基础 (Base)
 - 名称 (Name): 如 Rosewater, Base 等
 - Hex 代码: 如 `#ffffff` 等
@@ -165,48 +212,48 @@ Mon3tr是游戏《明日方舟》及其衍生作品的登场角色。它最初�
 
 ---@class Palette
 local ret = {
-  bg = "#",
-  bg_dark = "#",
-  bg_dark1 = "#",
-  bg_highlight = "#",
-  blue = "#",
-  blue0 = "#",
-  blue1 = "#",
-  blue2 = "#",
-  blue5 = "#",
-  blue6 = "#",
-  blue7 = "#",
-  comment = "#",
-  cyan = "#",
-  dark3 = "#",
-  dark5 = "#",
-  fg = "#",
-  fg_dark = "#",
-  fg_gutter = "#",
-  green = "#",
-  green1 = "#",
-  green2 = "#",
-  magenta = "#",
-  magenta2 = "#",
-  orange = "#",
-  purple = "#",
-  red = "#",
-  red1 = "#",
-  teal = "#",
-  terminal_black = "#",
-  yellow = "#",
-  git = {
-    add = "#",
-    change = "#",
-    delete = "#",
-  },
+bg = "#",
+bg_dark = "#",
+bg_dark1 = "#",
+bg_highlight = "#",
+blue = "#",
+blue0 = "#",
+blue1 = "#",
+blue2 = "#",
+blue5 = "#",
+blue6 = "#",
+blue7 = "#",
+comment = "#",
+cyan = "#",
+dark3 = "#",
+dark5 = "#",
+fg = "#",
+fg_dark = "#",
+fg_gutter = "#",
+green = "#",
+green1 = "#",
+green2 = "#",
+magenta = "#",
+magenta2 = "#",
+orange = "#",
+purple = "#",
+red = "#",
+red1 = "#",
+teal = "#",
+terminal_black = "#",
+yellow = "#",
+git = {
+add = "#",
+change = "#",
+delete = "#",
+},
 }
 return ret
-
 
 为了完成这个任务，请严格遵循以下的映射逻辑和推导规则：
 
 ### 1. 基础颜色映射 (Base & Foreground)
+
 - `bg`: 使用我们调色板中的 `Base`。
 - `bg_dark`: 使用我们调色板中的 `Mantle` 或 `Crust`（选择更深的一个）。
 - `fg`: 使用我们调色板中的 `Text`。
@@ -215,6 +262,7 @@ return ret
 - `bg_highlight`: 使用 `Surface2`，用于突出显示区域。
 
 ### 2. 语义颜色映射 (Semantic Colors)
+
 - `red`: 使用 `Red`。
 - `green`: 使用 `Green`。
 - `yellow`: 使用 `Yellow`。
@@ -226,7 +274,9 @@ return ret
 - `terminal_black`: 使用 `Crust`。
 
 ### 3. 颜色推导规则 (非常重要)
+
 当目标模板需要源调色板中没有的颜色变体时（例如 `red1`, `blue0`, `blue1`, `blue2` 等），请不要凭空捏造。你需要：
+
 - 以主色为基准：例如，要生成 `red1`，就以我们已有的 `Red` 颜色为基础。
 - 通过调整亮度和饱和度来创建变体：
   - 对于带数字的亮色（如 `blue0`, `blue1`），可以适当增加亮度或饱和度，使其更醒目。
@@ -234,10 +284,16 @@ return ret
 - 保持色相一致：推导出的颜色必须与主色属于同一个色系，以确保整体和谐。
 
 ### 4. 特殊模块映射 (`git`)
+
 根据通用设计规范：
+
 - `git.add`: 必须使用 `Green`。
 - `git.delete`: 必须使用 `Red`。
 - `git.change`: 使用 `Blue` 或 `Yellow`。
 
 请在分析完所有规则后，直接输出完整的、已填充所有颜色代码的 Lua 代码块。不需要额外的解释，我只需要最终的代码成品。
+
 ```
+
+</details>
+
