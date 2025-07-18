@@ -6,9 +6,8 @@
 
 如果你喜欢如下角色，可以测试对应的 ports。
 
-- [nozomi_(blue_archive)](./characters/nozomi_(blue_archive)/README.md)
-- mon3tr_(arknights)
-- hina_(blue_archive)
+- [nozomi (blue archive)](./characters/nozomi_(blue_archive)/README.md)
+- mon3tr (arknights)
 
 ## 方法
 
@@ -33,8 +32,8 @@
 
 可以通过以下工具辅助生成语义色，但我目前只找到了：
 
--   **https://color.adobe.com**：只能通过锁定单个 base 色来生成。
--   **https://coolors.co**：可以锁定多个颜色，但需要付费，且价格昂贵。
+-   <https://color.adobe.com>：只能通过锁定单个 base 色来生成。
+-   <https://coolors.co>：可以锁定多个颜色，但需要付费，且价格昂贵。
 
 ### 指令
 
@@ -93,9 +92,13 @@
 
 至于“设计思路”这一列，AI 输出的内容多为套话，对人类来说，用处仅在于判断 AI 是否按要求进行了思考。
 
-### 移植
+## 移植
 
-生成调色板后，便可以将其移植到各种软件中。我选择先移植到 Neovim。这里涉及“CoT (Chain-of-Thought)”这个 prompt 技巧。简单来说，就是紧接着发送一个新 prompt。
+生成调色板后，便可以将其移植到各种软件中。这里涉及“CoT (Chain-of-Thought)”这个 prompt 技巧。简单来说，就是紧接着发送一个新 prompt。
+
+### Neovim
+
+你当然可以选择直接重写一个新的主题，但是在实践中，修改 tokyonight.nvim 更为实际，因为它支持许多插件。有趣的是，其中蓝色系（blue）的颜色值变化并非循序渐进。因此，在实际使用时，也应当相应地修改这个 prompt。
 
 我发送的新 prompt 如下：
 
@@ -183,4 +186,4 @@ return ret
 请在分析完所有规则后，直接输出完整的、已填充所有颜色代码的 Lua 代码块。不需要额外的解释，我只需要最终的代码成品。
 ```
 
-需要说明的是，该模板来自 `[folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)`。有趣的是，其中蓝色系（blue）的颜色值变化并非循序渐进。因此，在实际使用时，也应当相应地修改这个 prompt。
+###
