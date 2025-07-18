@@ -43,113 +43,113 @@ Mon3tr 是游戏《明日方舟》及其衍生作品的登场角色。它最初�
 ### Neovim
 
 <details>
-  <summary>修改 tokyonight.nvim </summary>
+  <summary>修改 tokyonight.nvim</summary>
 
 ```Lua
 {
-"folke/tokyonight.nvim",
-lazy = false,
-priority = 1000,
-opts = function()
-local styles = require("tokyonight.colors").styles
-styles.nozomi = vim.tbl_extend("force", styles.night, {
-bg = "#131914",
-bg_dark = "#010101",
-bg_dark1 = "#0d0f0e",
-bg_highlight = "#272d2a",
+	"folke/tokyonight.nvim",
+	lazy = false,
+	priority = 1000,
+	opts = function()
+		local styles = require("tokyonight.colors").styles
+		styles.nozomi = vim.tbl_extend("force", styles.night, {
+		_	bg = "#131914",
+			bg_dark = "#010101",
+			bg_dark1 = "#0d0f0e",
+			bg_highlight = "#272d2a",
 
--- Blues
-blue = "#5aa9f9",
-blue0 = "#0875e4",
-blue1 = "#288ff7",
-blue2 = "#6ab1f9",
-blue5 = "#9bcbfb",
-blue6 = "#cce4fd",
-blue7 = "#065cb3",
+			-- Blues
+			blue = "#5aa9f9",
+			blue0 = "#0875e4",
+			blue1 = "#288ff7",
+			blue2 = "#6ab1f9",
+			blue5 = "#9bcbfb",
+			blue6 = "#cce4fd",
+			blue7 = "#065cb3",
 
--- Text & neutrals
-comment = "#3f4940",
-fg = "#c4b69d",
-fg_dark = "#718158",
-fg_gutter = "#3f4940",
+			-- Text & neutrals
+			comment = "#3f4940",
+			fg = "#c4b69d",
+			fg_dark = "#718158",
+			fg_gutter = "#3f4940",
 
--- Greens
-green = "#8cea92",
-green1 = "#cbf5cd",
-green2 = "#4cde56",
+			-- Greens
+			green = "#8cea92",
+			green1 = "#cbf5cd",
+			green2 = "#4cde56",
 
--- Reds
-red = "#9c5b5b",
-red1 = "#b07878",
+			-- Reds
+			red = "#9c5b5b",
+			red1 = "#b07878",
 
--- Other semantics
-yellow = "#e1dd8a",
-orange = "#ffbc8c",
-purple = "#c592ff",
-magenta = "#f5a2e5",
-magenta2 = "#8e1d28",
-cyan = "#6ee1ca",
-teal = "#6ee1ca",
+			-- Other semantics
+			yellow = "#e1dd8a",
+			orange = "#ffbc8c",
+			purple = "#c592ff",
+			magenta = "#f5a2e5",
+			magenta2 = "#8e1d28",
+			cyan = "#6ee1ca",
+			teal = "#6ee1ca",
 
--- Dark accents
-dark3 = "#3f4940",
-dark5 = "#3f4940",
-terminal_black = "#8a8170",
+			-- Dark accents
+			dark3 = "#3f4940",
+			dark5 = "#3f4940",
+			terminal_black = "#8a8170",
 
--- Git
-git = {
-add = "#8cea92",
-change = "#5aa9f9",
-delete = "#9c5b5b",
-},
-})
+			-- Git
+			git = {
+			add = "#8cea92",
+			change = "#5aa9f9",
+			delete = "#9c5b5b",
+			},
+		})_
 
-return {
-style = "nozomi",
-transparent = false,
-styles = {
-sidebars = "transparent",
-floats = "transparent",
-},
-}
-end,
+		return {
+			style = "nozomi",
+			transparent = false,
+			styles = {
+				sidebars = "transparent",
+				floats = "transparent",
+			},
+		}
+	end,
 },
 ```
 
 </details>
 
 <details>
-  <summary>修改 catppuccin </summary>
+  <summary>修改 catppuccin</summary>
 
 ```lua
 latte = {
-	crust = "#141827",
-	mantle = "#1A1E32",
-	base = "#1E2339",
-	surface0 = "#2C406D",
-	surface1 = "#354C7F",
-	surface2 = "#3F588F",
-	overlay0 = "#4964A0",
-	overlay1 = "#546FB0",
-	overlay2 = "#5F7CC1",
-	text = "#F2F4F8",
-	subtext0 = "#B3BAD0",
-	subtext1 = "#C3C6D1",
-	
-	rosewater = "#F4E0D7",
-	flamingo = "#F9A8B4",
-	pink = "#FFB1D3",
-	mauve = "#D1A4E8",
-	red = "#F66D7F",
-	maroon = "#C04554",
-	peach = "#FBBD8D",
-	yellow = "#F7D76A",
-	green = "#C0E89C",
-	teal = "#B7EFD3",
-	sky = "#8FC8FF",
-	sapphire = "#366DB6",
-	blue = "#5082CC",
-	lavender = "#AAADFF",
+  crust = "#141827",
+  mantle = "#1A1E32",
+  base = "#1E2339",
+  surface0 = "#2C406D",
+  surface1 = "#354C7F",
+  surface2 = "#3F588F",
+  overlay0 = "#4964A0",
+  overlay1 = "#546FB0",
+  overlay2 = "#5F7CC1",
+  text = "#F2F4F8",
+  subtext0 = "#B3BAD0",
+  subtext1 = "#C3C6D1",
+  
+  rosewater = "#F4E0D7",
+  flamingo = "#F9A8B4",
+  pink = "#FFB1D3",
+  mauve = "#D1A4E8",
+  red = "#F66D7F",
+  maroon = "#C04554",
+  peach = "#FBBD8D",
+  yellow = "#F7D76A",
+  green = "#C0E89C",
+  teal = "#B7EFD3",
+  sky = "#8FC8FF",
+  sapphire = "#366DB6",
+  blue = "#5082CC",
+  lavender = "#AAADFF",
 },
 ```
 
@@ -161,7 +161,7 @@ latte = {
 
 <details>
   <summary>查看 prompt</summary>
-	
+  
 ```md
 你是一个专业UI设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
 

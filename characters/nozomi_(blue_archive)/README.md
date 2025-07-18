@@ -12,40 +12,43 @@
 
 ## 配色
 
-| 分类 | 名称 | Hex | 设计思路 |
-|------|------|------|----------|
-| 基础 | Crust | #141827 | 制服最深阴影再加深，作为最底层背景减少眩光。 |
-| 基础 | Mantle | #1A1E32 | 在 Crust 之上稍亮一级，供大型面板或分栏使用。 |
-| 基础 | Base | #1E2339 | 取自制服主色并略微提亮，作为主要代码区背景。 |
-| 基础 | Surface | #262D45 | 比 Base 再亮一级，供浮层 / 悬停菜单。 |
-| 基础 | Text | #F2F4F8 | 来自她的白色裤袜，保证暗背景下的高对比正文。 |
-| 基础 | Subtext | #C3C6D1 | Text 降低亮度 25%，用于注释与次要信息。 |
-| 语义 | Rosewater | #F4E0D7 | 以暖粉作柔和提示；取自肤色高光并减饱和。 |
-| 语义 | Flamingo | #F9A8B4 | 粉中带橙，表现调皮语气；Rosewater 增饱和。 |
-| 语义 | Pink | #FFB1D3 | 明艳粉，用于正向高亮；Flamingo 偏紫调。 |
-| 语义 | Mauve | #D1A4E8 | 紫粉混合，适合函数名；与制服蓝形成类比色。 |
-| 语义 | Red | #F66D7F | 高警示错误色；取粉色补色并提高饱和度。 |
-| 语义 | Maroon | #C04554 | Red 加黑加蓝，供严重错误或删除状态。 |
-| 语义 | Peach | #FBBD8D | 源自徽章金属光泽，添加橙调显活力。 |
-| 语义 | Yellow | #F7D76A | 直接取眼睛金黄并提亮，用于警告或标记。 |
-| 语义 | Green | #C0E89C | 从光环色 #eafac8 降低亮度，作成功状态。 |
-| 语义 | Teal | #B7EFD3 | 以光环色向青色旋转 30°，用于信息提示。 |
-| 语义 | Sky | #8FC8FF | 制服蓝提亮＋加青，表现轻盈悬浮元素。 |
-| 语义 | Sapphire | #366DB6 | 制服蓝降低亮度，强调选中或活动标签。 |
-| 语义 | Blue | #5082CC | 直接采样肩章条纹，用作主链接 / 关键词。 |
-| 语义 | Lavender | #AAADFF | Blue 向紫移并提亮，作为次级链接或配色平衡。 |
-| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮 |
-| 基础 | Subtext 0 | #B3BAD0 | Text 降低亮度 25%，用作注释 |
-| 基础 | Surface 0 | #2C406D | Base 再提亮 8%，代码块背板 |
-| 基础 | Surface 1 | #354C7F | 用于选中行 / 输入框填充 |
-| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮 |
-| 基础 | Overlay 0 | #4964A0 | 悬浮面板／下拉菜单底色 |
-| 基础 | Overlay 1 | #546FB0 | Modal 窗口，亮度再提升 |
-| 基础 | Overlay 2 | #5F7CC1 | Tooltip／通知气泡，使其从背景中弹出 |
+| 分类 | 名称      | Hex     | 设计思路                                      |
+| ---- | --------- | ------- | --------------------------------------------- |
+| 基础 | Crust     | #141827 | 制服最深阴影再加深，作为最底层背景减少眩光。  |
+| 基础 | Mantle    | #1A1E32 | 在 Crust 之上稍亮一级，供大型面板或分栏使用。 |
+| 基础 | Base      | #1E2339 | 取自制服主色并略微提亮，作为主要代码区背景。  |
+| 基础 | Surface   | #262D45 | 比 Base 再亮一级，供浮层 / 悬停菜单。         |
+| 基础 | Text      | #F2F4F8 | 来自她的白色裤袜，保证暗背景下的高对比正文。  |
+| 基础 | Subtext   | #C3C6D1 | Text 降低亮度 25%，用于注释与次要信息。       |
+| 语义 | Rosewater | #F4E0D7 | 以暖粉作柔和提示；取自肤色高光并减饱和。      |
+| 语义 | Flamingo  | #F9A8B4 | 粉中带橙，表现调皮语气；Rosewater 增饱和。    |
+| 语义 | Pink      | #FFB1D3 | 明艳粉，用于正向高亮；Flamingo 偏紫调。       |
+| 语义 | Mauve     | #D1A4E8 | 紫粉混合，适合函数名；与制服蓝形成类比色。    |
+| 语义 | Red       | #F66D7F | 高警示错误色；取粉色补色并提高饱和度。        |
+| 语义 | Maroon    | #C04554 | Red 加黑加蓝，供严重错误或删除状态。          |
+| 语义 | Peach     | #FBBD8D | 源自徽章金属光泽，添加橙调显活力。            |
+| 语义 | Yellow    | #F7D76A | 直接取眼睛金黄并提亮，用于警告或标记。        |
+| 语义 | Green     | #C0E89C | 从光环色 #eafac8 降低亮度，作成功状态。       |
+| 语义 | Teal      | #B7EFD3 | 以光环色向青色旋转 30°，用于信息提示。        |
+| 语义 | Sky       | #8FC8FF | 制服蓝提亮＋加青，表现轻盈悬浮元素。          |
+| 语义 | Sapphire  | #366DB6 | 制服蓝降低亮度，强调选中或活动标签。          |
+| 语义 | Blue      | #5082CC | 直接采样肩章条纹，用作主链接 / 关键词。       |
+| 语义 | Lavender  | #AAADFF | Blue 向紫移并提亮，作为次级链接或配色平衡。   |
+| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮                |
+| 基础 | Subtext 0 | #B3BAD0 | Text 降低亮度 25%，用作注释                   |
+| 基础 | Surface 0 | #2C406D | Base 再提亮 8%，代码块背板                    |
+| 基础 | Surface 1 | #354C7F | 用于选中行 / 输入框填充                       |
+| 基础 | Surface 2 | #3F588F | Hover / 次级卡片，数字越大越亮                |
+| 基础 | Overlay 0 | #4964A0 | 悬浮面板／下拉菜单底色                        |
+| 基础 | Overlay 1 | #546FB0 | Modal 窗口，亮度再提升                        |
+| 基础 | Overlay 2 | #5F7CC1 | Tooltip／通知气泡，使其从背景中弹出           |
 
 ## 移植
 
 ### Neovim
+
+<details>
+  <summary>修改 tokyonight.nvim</summary>
 
 ```Lua
 {
@@ -104,14 +107,56 @@
 }
 ```
 
-![nozomi-screenshot](<./img/nozomi.png>)
+</details>
+
+<details>
+  <summary>修改 catppuccin</summary>
+
+```Lua
+latte = {
+    crust = "#141827",
+    mantle = "#1A1E32",
+    base = "#1E2339",
+    surface0 = "#2C406D",
+    surface1 = "#354C7F",
+    surface2 = "#3F588F",
+    overlay0 = "#4964A0",
+    overlay1 = "#546FB0",
+    overlay2 = "#5F7CC1",
+    text = "#F2F4F8",
+    subtext0 = "#B3BAD0",
+    subtext1 = "#C3C6D1",
+
+    rosewater = "#F4E0D7",
+    flamingo = "#F9A8B4",
+    pink = "#FFB1D3",
+    mauve = "#D1A4E8",
+    red = "#F66D7F",
+    maroon = "#C04554",
+    peach = "#FBBD8D",
+    yellow = "#F7D76A",
+    green = "#C0E89C",
+    teal = "#B7EFD3",
+    sky = "#8FC8FF",
+    sapphire = "#366DB6",
+    blue = "#5082CC",
+    lavender = "#AAADFF",
+},
+```
+
+</details>
+
+![nozomi-screenshot](./img/nozomi.png)
 
 ## 生成
 
 要生成，需要和此角色的立绘一起发送至 ChatGPT-o3 中。
 
+<details>
+  <summary>查看 prompt</summary>
+
 ```md
-你是一个专业UI设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
+你是一个专业 UI 设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
 
 我希望你根据一个动漫角色的核心色系，为我创作一个专门用于代码编辑器的“暗黑模式” (Dark Mode) 调色板。这个调色板必须严格遵循下方指定的命名结构。
 
@@ -125,6 +170,7 @@
 
 在 Blue Archive 中，光环相当于学生的生命。如果光环破碎，学生就会死亡。她的光环颜色是 #eafac8。
 除此之外，还有如下几点：
+
 - 背景色 (base)：她的制服颜色，可以选择比立绘更深一点的蓝色。
 - 文本色 (text)：可以从她的裤袜得到灵感。
 - 黄色系：她的眼睛是黄色的，以及她身上的某些物品是金色的。
@@ -132,20 +178,24 @@
 ### 3. 设计任务与色彩学要求
 
 请根据上述**核心颜色基准**，填充以下的调色板结构。
+
 - 推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
 - 风格指令：
-    - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 必须沉稳、专业，以制服颜色为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
-    - 文本色 (Text, Subtext 0, Subtext 1): 必须清晰易读，以她的裤袜为基础，可以创建不同亮度的版本。对于 Subtext，数字越大则越亮。
-    - 语义色: 必须体现角色“陽気かつハツラツ”的性格。它们需要比基础色更鲜明，但又不能过于刺眼。
-        - `Green`, `Teal` 应从光环色 `#eafac8` 演变而来。
-        - `Blue`, `Sapphire`, `Sky`, `Lavender` 需要你根据现有颜色进行和谐的创造，以补全整个色谱。
-        - `Yellow`、`Peach` 应从她的眼睛颜色或配饰演变而来。
-        - `Red`, `Maroon`, `Mauve`, `Pink`, `Flamingo`, `Rosewater` 应该使用色彩学知识来生成。
+  - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 必须沉稳、专业，以制服颜色为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
+  - 文本色 (Text, Subtext 0, Subtext 1): 必须清晰易读，以她的裤袜为基础，可以创建不同亮度的版本。对于 Subtext，数字越大则越亮。
+  - 语义色: 必须体现角色“陽気かつハツラツ”的性格。它们需要比基础色更鲜明，但又不能过于刺眼。
+    - `Green`, `Teal` 应从光环色 `#eafac8` 演变而来。
+    - `Blue`, `Sapphire`, `Sky`, `Lavender` 需要你根据现有颜色进行和谐的创造，以补全整个色谱。
+    - `Yellow`、`Peach` 应从她的眼睛颜色或配饰演变而来。
+    - `Red`, `Maroon`, `Mauve`, `Pink`, `Flamingo`, `Rosewater` 应该使用色彩学知识来生成。
 
 ### 4. 输出格式
- 
-请以Markdown表格的形式返回最终的调色板，包含以下列：
+
+请以 Markdown 表格的形式返回最终的调色板，包含以下列：
+
 - 分类 (Category): 语义 (Semantic) 或 基础 (Base)
 - 名称 (Name): 如 Rosewater, Base 等
 - 设计思路 (Rationale): 简要说明这个颜色的灵感来源或推导逻辑（例如：“源自金色纽扣颜色，增加了亮度以体现活泼感”）。
 ```
+
+</details>
