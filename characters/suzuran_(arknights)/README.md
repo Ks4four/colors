@@ -4,7 +4,7 @@
 
 《明日方舟》中，一名基于九尾狐设计的角色。
 
--   她的名字是`铃兰`。她的译名是 `Suzuran`，日文译名是`スズラン`。她的本名是`丽萨`，译名为 `Lisa`、`リサ`。
+- 她的名字是`铃兰`。她的译名是 `Suzuran`，日文译名是`スズラン`。她的本名是`丽萨`，译名为 `Lisa`、`リサ`。
 
 铃兰是这个项目的第 3 个角色。
 
@@ -106,34 +106,34 @@ latte = {
 
 ### 1. 角色与风格分析
 
--   角色名: Suzuran (本名 Lisa、译名铃兰)
--   出处: Arknights
--   核心性格与气质: Lisa is a wonderful and well-behaved child! I mean, after taking care of so many strong-willed people, it's rare to meet such a well-mannered and sensible child. Of course this is my personal belief. Despite the unfortunate fact that Lisa was infected at such a young age, she still has such a strong and pure aspect to her that I can't even begin to comprehend what her parents went through to shield her from that kind of environment. Of course, Lisa may also show us the bright future that lies ahead.
+- 角色名: Suzuran (本名 Lisa、译名铃兰)
+- 出处: Arknights
+- 核心性格与气质: Lisa is a wonderful and well-behaved child! I mean, after taking care of so many strong-willed people, it's rare to meet such a well-mannered and sensible child. Of course this is my personal belief. Despite the unfortunate fact that Lisa was infected at such a young age, she still has such a strong and pure aspect to her that I can't even begin to comprehend what her parents went through to shield her from that kind of environment. Of course, Lisa may also show us the bright future that lies ahead.
 
--   期望的调色板感觉: 应该是一个黄色背景，配上她的服装语义色的主题。她上了 Rhodes Island 以后，被称为“大家的光”，所以这是一个 light 主题。
--   文件结构：suzuran_0.png 是她的立绘。
+- 期望的调色板感觉: 应该是一个黄色背景，配上她的服装语义色的主题。她上了 Rhodes Island 以后，被称为“大家的光”，所以这是一个 light 主题。
+- 文件结构：suzuran_0.png 是她的立绘。
 
 ### 2. 核心颜色基准
 
--   主要基调色 (用于背景): 观察 suzuran_0.png 她的毛发，显然她的毛发都是黄色的，提取这种黄色来当作 base。
--   核心文本色 (用于文字): 对于文字色，应该是她身上装备的黑色综合起来的一种颜色作为 text。
--   第一强调色 (最标志性的颜色): 她头上的带子是蓝色的。
--   第二强调色 (次要特色): 她的眼睛是绿色的。
+- 主要基调色 (用于背景): 观察 suzuran_0.png 她的毛发，显然她的毛发都是黄色的，提取这种黄色来当作 base。
+- 核心文本色 (用于文字): 对于文字色，应该是她身上装备的黑色综合起来的一种颜色作为 text。
+- 第一强调色 (最标志性的颜色): 她头上的带子是蓝色的。
+- 第二强调色 (次要特色): 她的眼睛是绿色的。
 
 ### 3. 设计任务与色彩学要求
 
 请根据上述**核心颜色基准**，填充以下的调色板结构。
 
--   推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
--   风格指令：
-    -   基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 以**主要基调色 (base)**为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越暗。具体梯度需要参看 # 4. Catppuccin 梯度示例。
-    -   文本色 (Text, Subtext 0, Subtext 1): 以**核心文本色 (text)**为基础创建不同亮度的版本，确保清晰易读。对于 Subtext，数字越大则越暗。具体梯度需要参看 # 4. Catppuccin 梯度示例。
-    -   语义色: 必须体现用户描述的**核心性格与气质**。它们需要比基础色更鲜明，但又不能过于刺眼。
-        -   蓝色系包含：Blue、Sapphire、Sky、Teal、Lavender。她的衣服有蓝色的部分，提取和统计这种蓝色，然后再根据专业色彩学知识进行变化，最后生成。
-        -   红色系包含：Red、Maroon、Flamingo、Rosewater。这些需要通过专业色彩学知识变化并生成。
-        -   黄色系包含：Yellow、Peach。对于 base 已经是黄色的情况，你需要查看立绘，找出和提取压暗（但不是趋于黑色）的 Yellow。Peach 可以选择用专业的色彩学知识生成。
-        -   绿色系包含：Green。她的眼睛显然是绿色的。你可以从 suzuran_0.png 中提取和统计出来，为了长时间阅读性可以变化。
-        -   剩下 Mauve、Lavender、Pink 可以提取她的耳朵的粉色，使用专业的色彩学知识变化后生成。
+- 推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
+- 风格指令：
+  - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 以**主要基调色 (base)**为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越暗。具体梯度需要参看 # 4. Catppuccin 梯度示例。
+  - 文本色 (Text, Subtext 0, Subtext 1): 以**核心文本色 (text)**为基础创建不同亮度的版本，确保清晰易读。对于 Subtext，数字越大则越暗。具体梯度需要参看 # 4. Catppuccin 梯度示例。
+  - 语义色: 必须体现用户描述的**核心性格与气质**。它们需要比基础色更鲜明，但又不能过于刺眼。
+    - 蓝色系包含：Blue、Sapphire、Sky、Teal、Lavender。她的衣服有蓝色的部分，提取和统计这种蓝色，然后再根据专业色彩学知识进行变化，最后生成。
+    - 红色系包含：Red、Maroon、Flamingo、Rosewater。这些需要通过专业色彩学知识变化并生成。
+    - 黄色系包含：Yellow、Peach。对于 base 已经是黄色的情况，你需要查看立绘，找出和提取压暗（但不是趋于黑色）的 Yellow。Peach 可以选择用专业的色彩学知识生成。
+    - 绿色系包含：Green。她的眼睛显然是绿色的。你可以从 suzuran_0.png 中提取和统计出来，为了长时间阅读性可以变化。
+    - 剩下 Mauve、Lavender、Pink 可以提取她的耳朵的粉色，使用专业的色彩学知识变化后生成。
 
 ### 4. 提取颜色
 
@@ -141,7 +141,7 @@ latte = {
 
 你需要利用以下图像文件：
 
--   `suzuran_0.png`
+- `suzuran_0.png`
 
 ### 5. Catppuccin 梯度示例
 
@@ -169,10 +169,10 @@ latte = {
 
 请以 Markdown 表格的形式返回最终的调色板，包含以下列：
 
--   分类 (Category): 语义 (Semantic) 或 基础 (Base)
--   名称 (Name): 如 Rosewater, Base 等
--   Hex
--   设计思路 (Rationale): 简要说明这个颜色的灵感来源或推导逻辑（例如：“源自金色纽扣颜色，增加了亮度以体现活泼感”）。
+- 分类 (Category): 语义 (Semantic) 或 基础 (Base)
+- 名称 (Name): 如 Rosewater, Base 等
+- Hex
+- 设计思路 (Rationale): 简要说明这个颜色的灵感来源或推导逻辑（例如：“源自金色纽扣颜色，增加了亮度以体现活泼感”）。
 
 ````
 

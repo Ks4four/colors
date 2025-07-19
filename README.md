@@ -8,8 +8,9 @@
 
 需要注意的是，对于有 LLM 参与的工作，结果一般是无法复现的，理论上有 seed，但实际上没什么意义。
 
-- [nozomi (blue archive)](characters/nozomi_(blue_archive)/README.md)
-- [mon3tr (arknights)](characters/mon3tr_(arknights)/README.md)
+[![nozomi-icon](characters/nozomi_(blue_archive)/img/nozomi-icon.png)![nozomi-strip.png](characters/nozomi_(blue_archive)/img/nozomi-strip.png)](characters/nozomi_(blue_archive)/README.md)
+[![mon3tr-icon](characters/mon3tr_(arknights)/img/mon3tr-icon.png)![mon3tr-strip.png](characters/mon3tr_(arknights)/img/mon3tr-strip.png)](characters/mon3tr_(arknights)/README.md)
+[![suzuran-icon](characters/suzuran_(arknights)/img/suzuran-icon.png)![suzuran-strip.png](characters/suzuran_(arknights)/img/suzuran-strip.png)](characters/suzuran_(arknights)/README.md)
 
 ## 方法
 
@@ -62,9 +63,7 @@
 - 核心性格与气质: [例如：开朗、好奇心旺盛、充满活力、有行动力。]
 - 期望的调色板感觉: [例如：整体需要一个稳定、自然的基调（对应其采集和炼金的背景），但必须有明亮、充满冒险感的强调色来体现她的性格。]
 
-### 2. 核心颜色基准【用户填写区】
- 
-💡 **提示**: 请观察角色立绘，描述关键颜色来自哪里。
+### 2. 核心颜色基准
  
 - 主要基调色 (用于背景): [描述来源，通常是**服装**。例如：来自她深棕色的短裤和皮质装备，需要设计成一个更深的、适合做背景的颜色。]
 - 核心文本色 (用于文字): [描述来源，通常是**浅色衣物或肤色**。例如：来自她白色的衬衫，可以是一个略带暖调的米白色，以保证可读性。]
