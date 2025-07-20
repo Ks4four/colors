@@ -8,10 +8,8 @@
 
 需要注意的是，对于有 LLM 参与的工作，结果一般是无法复现的，理论上有 seed，但实际上没什么意义。
 
-[![nozomi-icon](<characters/nozomi_(blue_archive)/img/nozomi-icon.png>)![nozomi-strip.png](<characters/nozomi_(blue_archive)/img/nozomi-strip.png>)](<characters/nozomi_(blue_archive)/README.md>)
-
-[![mon3tr-icon](<characters/mon3tr_(arknights)/img/mon3tr-icon.png>)![mon3tr-strip.png](<characters/mon3tr_(arknights)/img/mon3tr-strip.png>)](<characters/mon3tr_(arknights)/README.md>)
-
+[![nozomi-icon](<characters/nozomi_(blue_archive)/img/nozomi-icon.png>)![nozomi-strip.png](<characters/nozomi_(blue_archive)/img/nozomi-strip.png>)](<characters/nozomi_(blue_archive)/README.md>) \
+[![mon3tr-icon](<characters/mon3tr_(arknights)/img/mon3tr-icon.png>)![mon3tr-strip.png](<characters/mon3tr_(arknights)/img/mon3tr-strip.png>)](<characters/mon3tr_(arknights)/README.md>) \
 [![suzuran-icon](<characters/suzuran_(arknights)/img/suzuran-icon.png>)![suzuran-strip.png](<characters/suzuran_(arknights)/img/suzuran-strip.png>)](<characters/suzuran_(arknights)/README.md>)
 
 ## 原理
@@ -118,7 +116,8 @@
 - Context (背景)
 - Format (格式)
 
-发送的 prompt 类似如下：
+<details>
+  <summary>大致的发送的 prompt 模板</summary>
 
 ```md
 # 0. 共通约束（务必整段复制到 Light / Dark 段首）
@@ -206,6 +205,8 @@ Base · Mantle · Crust
 - 她被称为“大家的光”——整体温暖、柔和、可长时间阅读
 - Semantic-Blue 系来自发带；Semantic-Green 来自眼睛；Yellow / Peach 系由发色加深而来
 ```
+
+</details>
 
 ## 移植
 

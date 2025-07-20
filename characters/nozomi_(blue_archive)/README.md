@@ -14,136 +14,84 @@ nozomi 是这个项目的第一个角色。
 
 ## 配色
 
-| 分类 | 名称      | Hex     | 设计思路                                      |
-| ---- | --------- | ------- | --------------------------------------------- |
-| 基础 | Crust     | #141827 | 制服最深阴影再加深，作为最底层背景减少眩光。  |
-| 基础 | Mantle    | #1A1E32 | 在 Crust 之上稍亮一级，供大型面板或分栏使用。 |
-| 基础 | Base      | #1E2339 | 取自制服主色并略微提亮，作为主要代码区背景。  |
-| 基础 | Text      | #F2F4F8 | 来自她的白色裤袜，保证暗背景下的高对比正文。  |
-| 语义 | Rosewater | #F4E0D7 | 以暖粉作柔和提示；取自肤色高光并减饱和。      |
-| 语义 | Flamingo  | #F9A8B4 | 粉中带橙，表现调皮语气；Rosewater 增饱和。    |
-| 语义 | Pink      | #FFB1D3 | 明艳粉，用于正向高亮；Flamingo 偏紫调。       |
-| 语义 | Mauve     | #D1A4E8 | 紫粉混合，适合函数名；与制服蓝形成类比色。    |
-| 语义 | Red       | #F66D7F | 高警示错误色；取粉色补色并提高饱和度。        |
-| 语义 | Maroon    | #C04554 | Red 加黑加蓝，供严重错误或删除状态。          |
-| 语义 | Peach     | #FBBD8D | 源自徽章金属光泽，添加橙调显活力。            |
-| 语义 | Yellow    | #F7D76A | 直接取眼睛金黄并提亮，用于警告或标记。        |
-| 语义 | Green     | #C0E89C | 从光环色 #eafac8 降低亮度，作成功状态。       |
-| 语义 | Teal      | #B7EFD3 | 以光环色向青色旋转 30°，用于信息提示。        |
-| 语义 | Sky       | #8FC8FF | 制服蓝提亮＋加青，表现轻盈悬浮元素。          |
-| 语义 | Sapphire  | #366DB6 | 制服蓝降低亮度，强调选中或活动标签。          |
-| 语义 | Blue      | #5082CC | 直接采样肩章条纹，用作主链接 / 关键词。       |
-| 语义 | Lavender  | #AAADFF | Blue 向紫移并提亮，作为次级链接或配色平衡。   |
+### 采样
 
-| Label     | Hex     | RGB             | HSL (H°, S %, L %) | 计算要点                                       |
-| --------- | ------- | --------------- | ------------------ | ---------------------------------------------- |
-| Surface 0 | #2C334F | 44 , 51 , 79    | 229 °, 28 %, 24 %  | Base +7 L，S -3 （承接 Catppuccin Mocha 规律） |
-| Surface 1 | #3A4265 | 58 , 66 , 101   | 229 °, 27 %, 31 %  | Base +14 L，S -4                               |
-| Surface 2 | #495279 | 73 , 82 , 121   | 229 °, 25 %, 38 %  | Base +21 L，S -6                               |
-| Overlay 0 | #586393 | 88 , 99 , 147   | 229 °, 25 %, 46 %  | Base +29 L，S -6                               |
-| Overlay 1 | #616EA8 | 97 , 110 , 168  | 229 °, 29 %, 52 %  | Base +35 L，S -2                               |
-| Overlay 2 | #7683BC | 118 , 131 , 188 | 229 °, 34 %, 60 %  | Base +43 L，S +3                               |
-| Subtext 1 | #DCDFE7 | 220 , 223 , 231 | 220 °, 19 %, 88 %  | Text ×0.92 L，Text ×0.63 S                     |
-| Subtext 0 | #C7CCD4 | 199 , 204 , 212 | 220 °, 12 %, 81 %  | Text ×0.84 L，Text ×0.41 S                     |
+| Target         | OKLCH (L C h)                 | Hex       |
+| -------------- | ----------------------------- | --------- |
+| Base           | oklch(29.23 % 0.0327 281.7 °) | `#292A3C` |
+| Text           | oklch(97.47 % 0.0295 119.4 °) | `#F4F9E3` |
+| Accent1 (光环) | oklch(96.90 % 0.0364 120.5 °) | `#F1F9DE` |
+| Accent2 (瞳色) | oklch(76.30 % 0.1332 99.2 °)  | `#C7B341` |
+
+### 26
+
+| Category | Name      | OKLCH                         | Hex       | Rationale       |
+| -------- | --------- | ----------------------------- | --------- | --------------- |
+| UI       | Text      | oklch(97.25 % 0.0293 117.4 °) | `#F4F9E3` | 抽样高亮白      |
+| UI       | Subtext1  | oklch(91.44 % 0.0300 119.4 °) | `#E0E6D0` | Text_L – 6      |
+| UI       | Subtext0  | oklch(85.34 % 0.0292 120.0 °) | `#CCD2BD` | Text_L – 12     |
+| UI       | Overlay2  | oklch(71.13 % 0.0319 281.4 °) | `#9EA0B6` | Base_L + 42     |
+| UI       | Overlay1  | oklch(65.00 % 0.0326 283.4 °) | `#8C8DA3` | +36             |
+| UI       | Overlay0  | oklch(59.07 % 0.0333 285.1 °) | `#7A7B91` | +30             |
+| UI       | Surface2  | oklch(53.17 % 0.0331 283.0 °) | `#686A7F` | +24             |
+| UI       | Surface1  | oklch(47.21 % 0.0329 282.3 °) | `#58596D` | +18             |
+| UI       | Surface0  | oklch(41.27 % 0.0328 282.0 °) | `#47495C` | +12             |
+| UI       | Base      | oklch(29.23 % 0.0327 281.7 °) | `#292A3C` | 制服暗蓝        |
+| UI       | Mantle    | oklch(32.23 % 0.0328 281.8 °) | `#303143` | +3              |
+| UI       | Crust     | oklch(35.23 % 0.0328 281.8 °) | `#38394C` | +6              |
+| Semantic | Rosewater | oklch(92.11 % 0.0719 30.8 °)  | `#F5E0DC` | 柔和粉调，≥ 3:1 |
+| Semantic | Flamingo  | oklch(87.70 % 0.0672 26.2 °)  | `#F2CDCD` | 轻粉            |
+| Semantic | Pink      | oklch(83.20 % 0.0818 340.0 °) | `#F5C2E7` | 樱花粉          |
+| Semantic | Mauve     | oklch(71.01 % 0.0881 309.4 °) | `#CBA6F7` | 淡紫            |
+| Semantic | Red       | oklch(64.32 % 0.1095 20.4 °)  | `#F38BA8` | 强红            |
+| Semantic | Maroon    | oklch(66.74 % 0.1003 8.8 °)   | `#EBA0AC` | 玫瑰红          |
+| Semantic | Peach     | oklch(74.52 % 0.0971 55.3 °)  | `#FAB387` | 蜜桃            |
+| Semantic | Yellow    | oklch(92.02 % 0.0556 108.9 °) | `#F9E2AF` | 光环呼应        |
+| Semantic | Green     | oklch(81.35 % 0.0839 140.2 °) | `#A6E3A1` | 绿叶            |
+| Semantic | Teal      | oklch(80.16 % 0.0746 175.1 °) | `#94E2D5` | 湖水            |
+| Semantic | Sky       | oklch(79.02 % 0.0719 205.9 °) | `#89DCEB` | 天空            |
+| Semantic | Sapphire  | oklch(72.28 % 0.0700 225.0 °) | `#74C7EC` | 青蓝            |
+| Semantic | Blue      | oklch(68.06 % 0.0708 245.5 °) | `#89B4FA` | 明蓝            |
+| Semantic | Lavender  | oklch(72.34 % 0.0660 275.3 °) | `#B4BEFE` | 薰衣草          |
 
 ## 移植
 
 ### Neovim
 
-<!-- <details>
-  <summary>修改 tokyonight.nvim</summary>
-
-```Lua
-{
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = function()
-        local styles = require("tokyonight.colors").styles
-        styles.nozomi = vim.tbl_extend("force", styles.night, {
-            bg = "#1E2339", -- Base
-            bg_dark = "#141827", -- Crust
-            bg_dark1 = "#1A1E32", -- Mantle
-            bg_highlight = "#2C406D", -- Surface 2
-            blue = "#3C6AFF", -- Blue
-            blue0 = "#5980FF",
-            blue1 = "#7696FF",
-            blue2 = "#93ADFF",
-            blue5 = "#B1C3FF",
-            blue6 = "#CED9FF",
-            blue7 = "#E1E8FF",
-            comment = "#4964A0", -- Overlay 0
-            cyan = "#8FC8FF", -- Sky
-            dark3 = "#141C32",
-            dark5 = "#0C111F",
-            fg = "#F2F4F8", -- Text
-            fg_dark = "#B3BAD0", -- Subtext 0
-            fg_gutter = "#4964A0", -- Overlay 0
-            green = "#C0E89C", -- Green
-            green1 = "#CFF2B4",
-            green2 = "#C6D4AA",
-            magenta = "#FFB1D3", -- Pink
-            magenta2 = "#F9A8B4", -- Flamingo
-            orange = "#FBBD8D", -- Peach
-            purple = "#D1A4E8", -- Mauve
-            red = "#F66D7F", -- Red
-            red1 = "#FF8888",
-            teal = "#B7EFD3", -- Teal
-            terminal_black = "#141827", -- Crust
-            yellow = "#F7D76A", -- Yellow
-            git = {
-                add = "#C0E89C", -- Green
-                change = "#5082CC", -- Blue
-                delete = "#FF6B6B", -- Red
-            },
-        })
-
-        return {
-            style = "nozomi",
-            transparent = false,
-            styles = {
-                sidebars = "transparent",
-                floats = "transparent",
-            },
-        }
-    end,
-}
-```
-
-</details> -->
-
 <details>
   <summary>修改 catppuccin</summary>
 
 ```Lua
-latte = {
-    crust = "#141827",
-    mantle = "#1A1E32",
-    base = "#1E2339",
-    surface0 = "#2C334F",
-    surface1 = "#3A4265",
-    surface2 = "#495279",
-    overlay0 = "#586393",
-    overlay1 = "#616EA8",
-    overlay2 = "#7683BC",
-    text = "#F2F4F8",
-    subtext0 = "#DCDFE7",
-    subtext1 = "#C7CCD4",
+mocha = {
+  -- nozomi
 
-    rosewater = "#F4E0D7",
-    flamingo = "#F9A8B4",
-    pink = "#FFB1D3",
-    mauve = "#D1A4E8",
-    red = "#F66D7F",
-    maroon = "#C04554",
-    peach = "#FBBD8D",
-    yellow = "#F7D76A",
-    green = "#C0E89C",
-    teal = "#B7EFD3",
-    sky = "#8FC8FF",
-    sapphire = "#366DB6",
-    blue = "#5082CC",
-    lavender = "#AAADFF",
+  text = "#F4F9E3",
+  subtext1 = "#E0E6D0",
+  subtext0 = "#CCD2BD",
+  overlay2 = "#9EA0B6",
+  overlay1 = "#8C8DA3",
+  overlay0 = "#7A7B91",
+  surface2 = "#686A7F",
+  surface1 = "#58596D",
+  surface0 = "#47495C",
+  base = "#292A3C",
+  mantle = "#303143",
+  crust = "#38394C",
+
+  rosewater = "#F5E0DC",
+  flamingo = "#F2CDCD",
+  pink = "#F5C2E7",
+  mauve = "#CBA6F7",
+  red = "#F38BA8",
+  maroon = "#EBA0AC",
+  peach = "#FAB387",
+  yellow = "#F9E2AF",
+  green = "#A6E3A1",
+  teal = "#94E2D5",
+  sky = "#89DCEB",
+  sapphire = "#74C7EC",
+  blue = "#89B4FA",
+  lavender = "#B4BEFE",
 },
 ```
 
@@ -161,46 +109,124 @@ latte = {
   <summary>查看 prompt</summary>
 
 ```md
-你是一个专业 UI 设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
+你正在和一个不能接收文件的客户端说话。以下执行结果必须要用 markdown 全部展示，而不能输出文件。
 
-我希望你根据一个动漫角色的核心色系，为我创作一个专门用于代码编辑器的“暗黑模式” (Dark Mode) 调色板。这个调色板必须严格遵循下方指定的命名结构。
+# 0. 共通约束（务必整段复制到 Light / Dark 段首）
 
-### 1. 角色与风格分析
+**角色**：{各段落填写}  
+**色空间**：全部在 **OKLCH** 内处理，最终同时输出 OKLCH + Hex（sRGB）。
 
-橘ノゾミ、ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。陽気かつハツラツとした性格で、細かいことは気にしない。そのせいか、双子の姉であるヒカリと一緒にトラブルを引き起こすこともしばしば。面白そうなものにはとりあえず飛び込む性格だが、列車運行に関しては責任を持って臨んでいる。
+## 0-1 固定输出的 27 色名（顺序任意但 **不可缺漏、不可新增**）
 
-这要求调色板在整体沉稳专业的基调上，必须拥有明亮、充满活力的强调色。
+Semantic（14）  
+Rosewater · Flamingo · Pink · Mauve · Red · Maroon · Peach · Yellow ·  
+Green · Teal · Sky · Sapphire · Blue · Lavender
 
-### 2. 核心颜色基准
+Base/Text & UI 阶层（13）  
+Text · Subtext1 · Subtext0 ·  
+Overlay2 · Overlay1 · Overlay0 ·  
+Surface2 · Surface1 · Surface0 ·  
+Base · Mantle · Crust
 
-在 Blue Archive 中，光环相当于学生的生命。如果光环破碎，学生就会死亡。她的光环颜色是 #eafac8。
-除此之外，还有如下几点：
+## 0-2 亮度梯度 & 对比度
 
-- 背景色 (base)：她的制服颜色，可以选择比立绘更深一点的蓝色。
-- 文本色 (text)：可以从她的裤袜得到灵感。
-- 黄色系：她的眼睛是黄色的，以及她身上的某些物品是金色的。
+### (A) UI 阶层的 ΔL（以 **Base_L** 为 0）
 
-### 3. 设计任务与色彩学要求
+| 名称     | ΔL (Light) | 说明                   |
+| -------- | ---------- | ---------------------- |
+| Mantle   | –3         | 比 Base 略暗，便于分区 |
+| Crust    | –6         | 比 Mantle 再暗一级     |
+| Surface0 | –12        |
+| Surface1 | –18        |
+| Surface2 | –24        |
+| Overlay0 | –30        |
+| Overlay1 | –36        |
+| Overlay2 | –42        |
 
-请根据上述**核心颜色基准**，填充以下的调色板结构。
+> **Dark Mode**：全部 ΔL 取相反符号（+3 → +42），保持绝对值不变。
 
-- 推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
-- 风格指令：
-  - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 必须沉稳、专业，以制服颜色为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
-  - 文本色 (Text, Subtext 0, Subtext 1): 必须清晰易读，以她的裤袜为基础，可以创建不同亮度的版本。对于 Subtext，数字越大则越亮。
-  - 语义色: 必须体现角色“陽気かつハツラツ”的性格。它们需要比基础色更鲜明，但又不能过于刺眼。
-    - `Green`, `Teal` 应从光环色 `#eafac8` 演变而来。
-    - `Blue`, `Sapphire`, `Sky`, `Lavender` 需要你根据现有颜色进行和谐的创造，以补全整个色谱。
-    - `Yellow`、`Peach` 应从她的眼睛颜色或配饰演变而来。
-    - `Red`, `Maroon`, `Mauve`, `Pink`, `Flamingo`, `Rosewater` 应该使用色彩学知识来生成。
+### (B) 文本梯度（以 **Text_L** 为 0）
 
-### 4. 输出格式
+| 名称     | ΔL (Light) | ΔL (Dark) |
+| -------- | ---------- | --------- |
+| Subtext1 | +6         | –6        |
+| Subtext0 | +12        | –12       |
 
-请以 Markdown 表格的形式返回最终的调色板，包含以下列：
+### (C) 对比度硬性要求
 
-- 分类 (Category): 语义 (Semantic) 或 基础 (Base)
-- 名称 (Name): 如 Rosewater, Base 等
-- 设计思路 (Rationale): 简要说明这个颜色的灵感来源或推导逻辑（例如：“源自金色纽扣颜色，增加了亮度以体现活泼感”）。
+- Text/Base ≥ **4.5 : 1**
+- 任一 Semantic/Base ≥ **3 : 1**
+
+### (D) 语义色限制
+
+- 仅在 **C**（Chroma）方向增强；`|ΔL_Semantic| ≤ 8`
+- 若 Semantic/Base 不达 3 : 1，须给出
+  1. **调整版**（已修正对比度）
+  2. **忠于原色版**（注明“不合规”）
+
+## 0-3 输出 & 验证流程
+
+1. **核心采样**：用 Python 从上传图片提取 `Base / Text / Accent1 / Accent2` 四色（OKLCH + Hex），填入 4×2 小表。
+2. **完整调板**：生成 27 行表格：`Category | Name | OKLCH | Hex | Rationale`。
+   - UI 阶层按上表 ΔL 推算；Semantic 从 Accent1/2 衍生或色彩学生成。
+3. **对比矩阵**：附一张 4 × 27 矩阵（Base vs Text & 全部 Semantic），输出数值；不达标处标红。
+
+---
+
+## ◤ Dark Palette — Nozomi ◢
+
+遵循 **0. 共通约束**，并执行以下专属指令：
+
+### 1-a. 角色 & 图片
+
+- 角色：**Nozomi**（Blue Archive）
+- 图片：**nozomi.png**（透明底立绘）
+
+### 1-b. 采样目标
+
+| 目标    | 说明             |
+| ------- | ---------------- |
+| Base    | 取自制服         |
+| Text    | 来自她的白色裤袜 |
+| Accent1 | 光环色 #eafac8   |
+| Accent2 | 取眼睛金黄       |
+
+### 2. 氛围指引
+
+以下是我较为满意的配色，只是说可能不合规。你先尝试生成一个新的 mon3tr palette，再指出下面这个配色有什么问题，再去修改。
+
+{
+-- nozomi
+
+    crust = "#141827",
+    mantle = "#1A1E32",
+    base = "#1E2339",
+    surface0 = "#2C334F",
+    surface1 = "#3A4265",
+    surface2 = "#495279",
+    overlay0 = "#586393",
+    overlay1 = "#616EA8",
+    overlay2 = "#7683BC",
+    text = "#F2F4F8",
+    subtext0 = "#DCDFE7",
+    subtext1 = "#C7CCD4",
+
+    rosewater = "#8F4E4C",
+    flamingo = "#874542",
+    pink = "#8E4561",
+    mauve = "#6B4A7F",
+    red = "#F66D7F",
+    maroon = "#C04554",
+    peach = "#8F5524",
+    yellow = "#6E5715",
+    green = "#0C6B51",
+    teal = "#18685A",
+    sky = "#255B74",
+    sapphire = "#366DB6",
+    blue = "#5082CC",
+    lavender = "#AAADFF",
+
+}
 ```
 
 </details>
