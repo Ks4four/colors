@@ -8,124 +8,208 @@
 
 需要注意的是，对于有 LLM 参与的工作，结果一般是无法复现的，理论上有 seed，但实际上没什么意义。
 
-[![nozomi-icon](characters/nozomi_(blue_archive)/img/nozomi-icon.png)![nozomi-strip.png](characters/nozomi_(blue_archive)/img/nozomi-strip.png)](characters/nozomi_(blue_archive)/README.md)
+[![nozomi-icon](<characters/nozomi_(blue_archive)/img/nozomi-icon.png>)![nozomi-strip.png](<characters/nozomi_(blue_archive)/img/nozomi-strip.png>)](<characters/nozomi_(blue_archive)/README.md>)
 
-[![mon3tr-icon](characters/mon3tr_(arknights)/img/mon3tr-icon.png)![mon3tr-strip.png](characters/mon3tr_(arknights)/img/mon3tr-strip.png)](characters/mon3tr_(arknights)/README.md)
+[![mon3tr-icon](<characters/mon3tr_(arknights)/img/mon3tr-icon.png>)![mon3tr-strip.png](<characters/mon3tr_(arknights)/img/mon3tr-strip.png>)](<characters/mon3tr_(arknights)/README.md>)
 
-[![suzuran-icon](characters/suzuran_(arknights)/img/suzuran-icon.png)![suzuran-strip.png](characters/suzuran_(arknights)/img/suzuran-strip.png)](characters/suzuran_(arknights)/README.md)
+[![suzuran-icon](<characters/suzuran_(arknights)/img/suzuran-icon.png>)![suzuran-strip.png](<characters/suzuran_(arknights)/img/suzuran-strip.png>)](<characters/suzuran_(arknights)/README.md>)
 
-## 方法
+## 原理
 
-### 构成
+个人认为要形成一个配色，步骤如下：
 
-简单来说，一个 color palette 需要有基础色和语义色。以 Catppuccin 和 Dracula 为例：
+1. 决定 **概念**：这个配色要尝试去做什么？尝试描述什么？在这个项目里，无一例外都是角色。
+1. 决定 **采样色彩**：角色有什么色彩是特别明显的？
+1. 决定 **Base**、**Text**：一个配色好歹要有背景和正文。
+1. 决定 **梯度**：如果遇到有 UI 的东西，这些背景应该要有不同的层级，亮度的差距就是梯度。由于梯度是固定的，决定完梯度之后，就不怎么需要微调了。
+1. 决定 **语义色**：除了正文，要强调的时候应该用什么色？
+1. 微调 **语义色**：调整语义色的亮度，直到其满足可读性。
+1. 编写 文档：“讲故事”，然后为语义色和梯度变化编写语义。
+
+### 概念
+
+在本项目中，每个核心概念均对应一个特定的动漫角色。
+
+### 采样
+
+概念形成之后，就可以采样了。
+采样可以选择直接从原画中取点，也可以通过统计学采样。
+统计学采样需要用到中位数 / K-means 聚类，避免挑到极端亮点或暗点。
+
+采样的内容包括 Base、Text、语义色。语义色可以后文再取。
+
+采样还要注意的是色空间。
+最简单的就是使用 HSL。
+不过，我用过的 LLM 都说 OKLCH 更好。
+
+- 本项目用的是 chatGPT o3 主动使用的 K-means，但有时这种取样并不能令人满意。
+- 本项目使用 OKLCH。
+
+### 基本色
+
+又称 base & text、背景和正文、`bg`和`fg`。
+
+任何有效的颜色主题都必须包含基础的背景色 (Base) 与文本色 (Text)。
+为确保在长时间使用下的可读性，二者之间必须满足特定的对比度标准。
+
+- 本项目使用的标准是 [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum)，要求背景色与文本色的对比度不低于 `4.5:1`。
+
+### 梯度
+
+对于不同的 UI 元素，比如面板、按钮、悬浮状态等，总不可能和背景颜色是一样的。
+所以要适当在背景色上面变化。
+简单实践是调整亮度即可。
+
+- 本项目的梯度层级设计参考了 Catppuccin 主题在亮度（ΔL）上的处理方式。
+
+### 语义色
+
+语义色是指用于特定目的的强调色，例如代码语法高亮、链接、警告或成功状态等。成熟的颜色主题通常包含一套完整的语义色。
 
 - **Dracula**:
-    - 主色：background, current line, foreground, comment
-    - 语义色：cyan, green, orange, pink, purple, red, yellow
+  - 基本色：background, current line, foreground, comment
+  - 语义色：cyan, green, orange, pink, purple, red, yellow
 - **Catppuccin**:
-    - 主色：Text, Subtext1, Subtext0, Overlay2, Overlay1, Overlay0, Surface2, Surface1, Surface0, Base, Mantle, Crust
-    - 语义色：Rosewater, Flamingo, Pink, Mauve, Red, Maroon, Peach, Yellow, Green, Teal, Sky, Sapphire, Blue, Lavender
+  - 基本色：Text, Subtext1, Subtext0, Overlay2, Overlay1, Overlay0, Surface2, Surface1, Surface0, Base, Mantle, Crust
+  - 语义色：Rosewater, Flamingo, Pink, Mauve, Red, Maroon, Peach, Yellow, Green, Teal, Sky, Sapphire, Blue, Lavender
 
 可以注意到，部分颜色（主色）接近于单色 (mono)，非常相近。
 
-### 语义
+当然这里的语义色并不是要采完七八种颜色，因为动漫角色为了创造记忆点，通常不会使用过多的色彩。
+本项目流程如下：
 
-动漫角色为了创造记忆点，通常不会使用过多的色彩。基础色的提取相对简单，使用视觉模型或经过特定程序处理即可。现在许多 LLM 也能提取颜色，综合来看，我最推荐能执行代码的 LLM。
+1. 首先从采样色中确定一至两个核心强调色。
+1. 采样完两三个，就可以使用工具来辅助生成别的语义色了。从原理上看，用到的原理包括但不限于同色系微调、补色、类比色等。
+1. 使用 Catppuccin 框架来辅助生成颜色。
 
-但语义色是个难题，因为一个动漫角色的立绘不太可能包含至少六种可直接使用的语义色。
+对于颜色框架，追求极简的用户也可以使用 Dracula。对于主题机制爱好者，还可以使用 Base16 的命名方案。
 
-可以通过以下工具辅助生成语义色，但我目前只找到了：
+辅助生成的工具包括但不限于：
 
--   <https://color.adobe.com>：只能通过锁定单个 base 色来生成。
--   <https://coolors.co>：可以锁定多个颜色，但需要付费，且价格昂贵。
+- 能**执行程序**的 LLM。
+- <https://color.adobe.com>：只能通过锁定单个 base 色来生成。
+- <https://coolors.co>：可以锁定多个颜色，但需要付费，且价格昂贵。
 
-### 指令
+### a11y
+
+做好语义色之后，就可以调整亮度，以确保其与背景色的组合符合可读性要求。
+
+- 本项目要求语义色与基础背景色的对比度 (contrast) 不低于 3:1。
+
+### 确定
+
+现在你就获得了基本色和语义色。只需要用一些什么工具跑一次对比度矩阵 (contrast-matrix) 即可。
+
+跑完了，就可以截图展示，然后编写文档了。
+编写文档的时候要说明白哪个颜色是用来干什么的。
+
+当然，如果基于框架（如 Dracula）设计的，那就让色彩不言自明了。
+
+- 本项目使用 chatGPT o3 根据框架设计，不需要此步。
+
+## 指令
 
 从性价比来看，我选择尝试使用 LLM（这里的 LLM **必须能执行程序**）来生成。这就需要用到 Prompt Engineering。
 
 我参考了谷歌的 [Prompting guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)。其中指出，一个好的 prompt 可以由以下元素构成：
 
--   Persona (角色)
--   Task (任务)
--   Context (背景)
--   Format (格式)
+- Persona (角色)
+- Task (任务)
+- Context (背景)
+- Format (格式)
 
 发送的 prompt 类似如下：
 
 ```md
-你是一个专业UI设计师，尤其擅长为开发者工具创造富有情感联系和视觉一致性的主题。
+# 0. 共通约束（务必整段复制到 Light / Dark 段首）
 
-我希望你根据一个动漫角色的核心色系，为我创作一个专门用于代码编辑器的“暗黑模式” (Dark Mode) 调色板。这个调色板必须严格遵循下方指定的命名结构。
+**角色**：{各段落填写}  
+**色空间**：全部在 **OKLCH** 内处理，最终同时输出 OKLCH + Hex（sRGB）。
 
-### 1. 角色与风格分析
+## 0-1 固定输出的 27 色名（顺序任意但 **不可缺漏、不可新增**）
 
-- 角色名: [例如：莱莎·斯托特]
-- 出处: [例如：莱莎的炼金工房]
-- 核心性格与气质: [例如：开朗、好奇心旺盛、充满活力、有行动力。]
-- 期望的调色板感觉: [例如：整体需要一个稳定、自然的基调（对应其采集和炼金的背景），但必须有明亮、充满冒险感的强调色来体现她的性格。]
+Semantic（14）  
+Rosewater · Flamingo · Pink · Mauve · Red · Maroon · Peach · Yellow ·  
+Green · Teal · Sky · Sapphire · Blue · Lavender
 
-### 2. 核心颜色基准
- 
-- 主要基调色 (用于背景): [描述来源，通常是**服装**。例如：来自她深棕色的短裤和皮质装备，需要设计成一个更深的、适合做背景的颜色。]
-- 核心文本色 (用于文字): [描述来源，通常是**浅色衣物或肤色**。例如：来自她白色的衬衫，可以是一个略带暖调的米白色，以保证可读性。]
-- 第一强调色 (最标志性的颜色): [描述来源，通常是**眼睛、发色或关键配饰**。例如：来自她标志性的蓝色头巾和翠绿色的炼金瓶，选择更明亮的翠绿色。]
-- 第二强调色 (次要特色): [描述来源，例如：她金色的头发和一些金属配饰。]
+Base/Text & UI 阶层（13）  
+Text · Subtext1 · Subtext0 ·  
+Overlay2 · Overlay1 · Overlay0 ·  
+Surface2 · Surface1 · Surface0 ·  
+Base · Mantle · Crust
 
-### 3. 设计任务与色彩学要求
+## 0-2 亮度梯度 & 对比度
 
-请根据上述**核心颜色基准**，填充以下的调色板结构。
-- 推断原则：你需要基于核心颜色，运用专业的色彩学知识（如调整饱和度、亮度，寻找邻近色、互补色）来生成剩余的颜色。所有颜色组合在一起时，必须感觉它们源自同一个角色。
-- 风格指令：
-    - 基础色 (Base, Mantle, Crust, Surface 0, Surface 1, Surface 2, Overlay 0, Overlay 1, Overlay 2): 以**主要基调色 (base)**为基础进行微调，确保长时间阅读的舒适性。对于 Surface 和 Overlay，数字越大则越亮。
-    - 文本色 (Text, Subtext 0, Subtext 1): 以**核心文本色 (text)**为基础创建不同亮度的版本，确保清晰易读。对于 Subtext，数字越大则越亮。
-    - 语义色: 必须体现用户描述的**核心性格与气质**。它们需要比基础色更鲜明，但又不能过于刺眼。
-        - 例子：从用户提供的**第一和第二强调色**中汲取灵感，生成与之协调的 `Green`, `Teal`, `Yellow`, `Peach`。
-        - 例子：基于已有的核心色系，通过色彩学原理和谐地创造出 `Blue`, `Sapphire`, `Sky`, `Lavender`，以补全冷色调光谱。
-        - 例子：同样，运用色彩学知识生成功能性的 `Red`, `Maroon`, `Mauve`, `Pink` 等暖色点缀色，确保整体色盘的和谐与完整。
+### (A) UI 阶层的 ΔL（以 **Base_L** 为 0）
 
-### 4. Catppuccin 梯度示例
+| 名称     | ΔL (Light) | 说明                   |
+| -------- | ---------- | ---------------------- |
+| Mantle   | –3         | 比 Base 略暗，便于分区 |
+| Crust    | –6         | 比 Mantle 再暗一级     |
+| Surface0 | –12        |
+| Surface1 | –18        |
+| Surface2 | –24        |
+| Overlay0 | –30        |
+| Overlay1 | –36        |
+| Overlay2 | –42        |
 
-下表展示 Frappe 口味中 *Base ⇢ Surface/Overlay* 与 *Text ⇢ Subtext* 的精确梯度。  
-请在生成新调色板时「复用同样的相对增量」，但以本角色的 Base / Text 作为起点。  
+> **Dark Mode**：全部 ΔL 取相反符号（+3 → +42），保持绝对值不变。
 
-| Label | Hex | HSL |
-|-------|-----|-----|
-| Crust | #232634 | 229°, 20%, 17% |
-| Mantle | #292c3c | 231°, 19%, 20% |
-| Base | #303446 | 229°, 19%, 23% |
-| Surface 0 | #414559 | 230°, 16%, 30% |
-| Surface 1 | #51576d | 227°, 15%, 37% |
-| Surface 2 | #626880 | 228°, 13%, 44% |
-| Overlay 0 | #737994 | 229°, 13%, 52% |
-| Overlay 1 | #838ba7 | 227°, 17%, 58% |
-| Overlay 2 | #949cbb | 228°, 22%, 66% |
-| Text | #c6d0f5 | 227°, 70%, 87% |
-| Subtext 1 | #b5bfe2 | 227°, 44%, 80% |
-| Subtext 0 | #a5adce | 228°, 29%, 73% |
+### (B) 文本梯度（以 **Text_L** 为 0）
 
-如果不遵循梯度的话，部分 UI 会看不清字。
+| 名称     | ΔL (Light) | ΔL (Dark) |
+| -------- | ---------- | --------- |
+| Subtext1 | +6         | –6        |
+| Subtext0 | +12        | –12       |
 
-### 5. 输出格式
- 
-请以Markdown表格的形式返回最终的调色板，包含以下列：
-- 分类 (Category): 语义 (Semantic) 或 基础 (Base)
-- 名称 (Name): 如 Rosewater, Base 等
-- Hex
-- 设计思路 (Rationale): 简要说明这个颜色的灵感来源或推导逻辑（例如：“源自金色纽扣颜色，增加了亮度以体现活泼感”）。
+### (C) 对比度硬性要求
+
+- Text/Base ≥ **4.5 : 1**
+- 任一 Semantic/Base ≥ **3 : 1**
+
+### (D) 语义色限制
+
+- 仅在 **C**（Chroma）方向增强；`|ΔL_Semantic| ≤ 8`
+- 若 Semantic/Base 不达 3 : 1，须给出
+  1. **调整版**（已修正对比度）
+  2. **忠于原色版**（注明“不合规”）
+
+## 0-3 输出 & 验证流程
+
+1. **核心采样**：用 Python 从上传图片提取 `Base / Text / Accent1 / Accent2` 四色（OKLCH + Hex），填入 4×2 小表。
+2. **完整调板**：生成 27 行表格：`Category | Name | OKLCH | Hex | Rationale`。
+   - UI 阶层按上表 ΔL 推算；Semantic 从 Accent1/2 衍生或色彩学生成。
+3. **对比矩阵**：附一张 4 × 27 矩阵（Base vs Text & 全部 Semantic），输出数值；不达标处标红。
+
+---
+
+## ◤ Light Palette — Suzuran ◢
+
+遵循 **0. 共通约束**，并执行以下专属指令：
+
+### 1-a. 角色 & 图片
+
+- 角色：**Suzuran**（Arknights，铃兰）
+- 图片：**suzuran_0.png**（透明底立绘）
+
+### 1-b. 采样目标
+
+| 目标    | 说明                       |
+| ------- | -------------------------- |
+| Base    | 毛发主体淡黄色（不能带红） |
+| Text    | 装备主体深灰黑             |
+| Accent1 | 头顶蓝色发带               |
+| Accent2 | 绿色眼睛                   |
+
+### 2. 氛围指引
+
+- 她被称为“大家的光”——整体温暖、柔和、可长时间阅读
+- Semantic-Blue 系来自发带；Semantic-Green 来自眼睛；Yellow / Peach 系由发色加深而来
 ```
-
-在命名方案上，我选择使用 Catppuccin，单纯因为它颜色多。此外，追求极简的用户也可以使用 Dracula。对于主题机制爱好者，还可以使用 Base16 的命名方案。
-
-至于“设计思路”这一列，AI 输出的内容多为套话，对人类来说，用处仅在于判断 AI 是否按要求进行了思考。
-
-[nozomi (blue archive)](./characters/nozomi_(blue_archive)/README.md) 是第一个使用例。
-所以，参照它可能更易于理解。
-不过，由于使用上总会发现各种各样的问题，所以主文档会是最新的。
 
 ## 移植
 
-生成调色板后，便可以将其移植到各种软件中。这里涉及“CoT (Chain-of-Thought)”这个 prompt 技巧。简单来说，就是紧接着发送一个新 prompt。
+生成调色板后，便可以将其移植到各种软件中。
 
 许多软件的主题和插件是绑定的，例如 Neovim、Obsidian、`Code.exe` 等。对于这些软件，可以在支持多插件的主题上修改颜色。
 
@@ -134,90 +218,10 @@
 自然，在 Catppuccin/nvim 自定义颜色是最简单的。
 当然，也可以选择修改别的主题。
 
-修改 tokyonight.nvim 更为实际。有趣的是，其中蓝色系（blue）的颜色值变化并非循序渐进。因此，在实际使用时，也应当相应地修改这个 prompt。
+### Obsidian
 
-我发送的新 prompt 如下：
+使用支持 Style Settings 插件的主题均可。
 
-```md
-现在，请你继续，将我们刚刚创建的这个调色板“移植”到一个 Neovim 主题的 Lua 模板中。
+### `Code.exe`
 
-这是我需要你填充的目标模板：
-
----@class Palette
-local ret = {
-  bg = "#",
-  bg_dark = "#",
-  bg_dark1 = "#",
-  bg_highlight = "#",
-  blue = "#",
-  blue0 = "#",
-  blue1 = "#",
-  blue2 = "#",
-  blue5 = "#",
-  blue6 = "#",
-  blue7 = "#",
-  comment = "#",
-  cyan = "#",
-  dark3 = "#",
-  dark5 = "#",
-  fg = "#",
-  fg_dark = "#",
-  fg_gutter = "#",
-  green = "#",
-  green1 = "#",
-  green2 = "#",
-  magenta = "#",
-  magenta2 = "#",
-  orange = "#",
-  purple = "#",
-  red = "#",
-  red1 = "#",
-  teal = "#",
-  terminal_black = "#",
-  yellow = "#",
-  git = {
-    add = "#",
-    change = "#",
-    delete = "#",
-  },
-}
-return ret
-
-
-为了完成这个任务，请严格遵循以下的映射逻辑和推导规则：
-
-### 1. 基础颜色映射 (Base & Foreground)
-- `bg`: 使用我们调色板中的 `Base`。
-- `bg_dark`: 使用我们调色板中的 `Mantle` 或 `Crust`（选择更深的一个）。
-- `fg`: 使用我们调色板中的 `Text`。
-- `fg_dark`: 使用我们调色板中的 `Subtext0`。
-- `comment`, `fg_gutter`: 使用我们调色板中的 `Overlay0`，因为它足够柔和，不会干扰视线。
-- `bg_highlight`: 使用 `Surface2`，用于突出显示区域。
-
-### 2. 语义颜色映射 (Semantic Colors)
-- `red`: 使用 `Red`。
-- `green`: 使用 `Green`。
-- `yellow`: 使用 `Yellow`。
-- `blue`: 使用 `Blue`。
-- `purple`: 使用 `Mauve`。
-- `magenta`: 使用 `Pink` 或 `Flamingo`。
-- `cyan`, `teal`: 都使用 `Teal` 或 `Sky`（选择一个你认为更合适的作为主色）。
-- `orange`: 使用 `Peach`。
-- `terminal_black`: 使用 `Crust`。
-
-### 3. 颜色推导规则 (非常重要)
-当目标模板需要源调色板中没有的颜色变体时（例如 `red1`, `blue0`, `blue1`, `blue2` 等），请不要凭空捏造。你需要：
-- 以主色为基准：例如，要生成 `red1`，就以我们已有的 `Red` 颜色为基础。
-- 通过调整亮度和饱和度来创建变体：
-  - 对于带数字的亮色（如 `blue0`, `blue1`），可以适当增加亮度或饱和度，使其更醒目。
-  - 对于带数字的暗色（如 `dark3`, `dark5`），以 `Mantle` 为基础，进一步降低亮度。
-- 保持色相一致：推导出的颜色必须与主色属于同一个色系，以确保整体和谐。
-
-### 4. 特殊模块映射 (`git`)
-根据通用设计规范：
-- `git.add`: 必须使用 `Green`。
-- `git.delete`: 必须使用 `Red`。
-- `git.change`: 使用 `Blue` 或 `Yellow`。
-
-请在分析完所有规则后，直接输出完整的、已填充所有颜色代码的 Lua 代码块。不需要额外的解释，我只需要最终的代码成品。
-```
+需要通过 LLM 来生成对应的 `settings.json`
