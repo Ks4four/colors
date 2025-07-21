@@ -60,26 +60,20 @@ COLOR_ORDER = [
     "Crust",
 ]
 
-# 每个色块的尺寸
 IMAGE_SIZE = (20, 50)
-# 输出文件名
 OUTPUT_FILENAME = "color_strip.png"
 
 
 def generate_color_strip():
-    """
-    根据 COLOR_ORDER 将色块横向合并成一个条状图片。
-    """
+
     print("\nStarting color strip generation...")
 
-    # 计算合并后图像的总宽度和高度
     total_width = IMAGE_SIZE[0] * len(COLOR_ORDER)
     height = IMAGE_SIZE[1]
 
-    # 创建一个新的空白图像（画布）
     strip_image = Image.new("RGB", (total_width, height))
 
-    current_x = 0  # 当前粘贴位置的x坐标
+    current_x = 0
 
     for color_name in COLOR_ORDER:
         hex_color = ALL_COLORS.get(color_name)
@@ -89,13 +83,13 @@ def generate_color_strip():
             continue
 
         try:
-            # 在内存中创建单个色块图像
+
             color_block = Image.new("RGB", IMAGE_SIZE, color=hex_color)
 
-            # 将色块粘贴到画布的指定位置
+
             strip_image.paste(color_block, (current_x, 0))
 
-            # 更新下一个色块的x坐标
+
             current_x += IMAGE_SIZE[0]
 
             print(f"Pasted: {color_name}")
@@ -104,7 +98,7 @@ def generate_color_strip():
             print(f"Error creating image for {color_name} with hex {hex_color}: {e}")
             continue
 
-    # 保存最终合并的图像
+
     strip_image.save(OUTPUT_FILENAME)
     print(f"\nSuccessfully generated: {OUTPUT_FILENAME}")
     print("\nAll tasks completed. Your color strip is ready!")
