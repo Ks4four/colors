@@ -22,6 +22,12 @@
 
 对比度矩阵分析的原始数据为 [JSON 格式](kal'tsit-contrast.json)（另提供一份 [仅与 base 对比的版本](kal'tsit-base-contrast.json)），同时也提供了一份更易于阅读的 [Markdown 版本](kal'tsit-contrast.md)。
 
+### 来源
+
+查看以下图片，这是不言自明的。
+
+![kal'tsit-sample](./img/kal'tsit-sample.png)
+
 ## 移植
 
 ### Neovim
