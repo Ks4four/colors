@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#f5e5e0",
+      "Rationale": "取自皮肤高光并加入少许红调，营造柔和的初始暖意"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#f2c9c0",
+      "Rationale": "基于 Rosewater 加深饱和，呼应袖口内衬淡粉"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#ffb0c9",
+      "Rationale": "在 Flamingo 的基础上提高亮度与饱和，用作更醒目的暖粉提示"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#b8a4ff",
+      "Rationale": "角色阴影处偶现的冷紫补光，略增饱和形成梦幻感"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#FF442E",
+      "Rationale": "袖口内侧极少量鲜红提取并适度提亮"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#B03A33",
+      "Rationale": "在 Red 基础上降低亮度形成深红警告色"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#f7bd8f",
+      "Rationale": "来自皮肤与黄色装置的过渡色，用于提示性较低信息"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#fcd912",
+      "Rationale": "均值化装置 ^_^ 笑脸的三种黄色采样值"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#5ad641",
+      "Rationale": "晶体荧光绿区域抽样后提高亮度和饱和度以增强识别"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#5fb8a8",
+      "Rationale": "取自斗篷内衬青绿并调高亮度形成冷绿蓝过渡"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#96d8d0",
+      "Rationale": "在 Teal 基础上增加亮度，用于信息型蓝绿色"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#4d9fd0",
+      "Rationale": "取自晶体冷端蓝光，适中亮度用于强调"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#3c8dd9",
+      "Rationale": "基于 Sapphire 降低明度并增饱和，用于信息焦点"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#a1c1ff",
+      "Rationale": "Blue 提亮去饱和后得到的柔和浅蓝，作次要提示"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#e8e1cf",
+      "Rationale": "角色苍白肌肤主色，保证深背景下可读性"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#cdbe97",
+      "Rationale": "在 Text 基础上降低 16 %亮度用于次级文字"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#dacfb3",
+      "Rationale": "在 Text 基础上降低 8 %亮度形成层次"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#1f2722",
+      "Rationale": "提取斗篷暗黑绿并设为整体背景"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#181e1a",
+      "Rationale": "Base 再降低 3 %亮度，用于浮层底"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#111513",
+      "Rationale": "Base 再降低 6 %亮度，用于极深分隔"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#313d35",
+      "Rationale": "Base 提高 8 %亮度给首层面板"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#435449",
+      "Rationale": "Surface0 再提高 8 %亮度，提升可读对比"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#556b5d",
+      "Rationale": "Surface1 再提高 8 %亮度，用于悬浮组件"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#678171",
+      "Rationale": "Surface2 再提高 8 %亮度，用于按钮悬停"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#7b9685",
+      "Rationale": "Overlay0 再提高 8 %亮度，用于可选中态"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#92a89a",
+      "Rationale": "Overlay1 再提高 9 %亮度，用于聚焦态"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
 > 
 > JSON 结构设计、对比度结果、语义色微调……做到这个角色上才算是形成一个 workflow。
 >
-> 有趣的是，这肯定比 [Mon3tr](..\mon3tr_(arknights)\README.md) 还要成功，不过在语义上，Mon3tr 应该是 Kal'tsit 的 dark mode。
+> 有趣的是，这肯定比 [Mon3tr](../mon3tr_(arknights)/README.md) 还要成功，不过在语义上，Mon3tr 应该是 Kal'tsit 的 dark mode。
 
 ## 配色
 
