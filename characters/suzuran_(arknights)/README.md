@@ -85,10 +85,3 @@ latte = {
 		lavender = "#715894",
 },
 ```
-
-
-<!-- <details>
-  <summary>查看 prompt</summary>
-
-
-</details> -->
