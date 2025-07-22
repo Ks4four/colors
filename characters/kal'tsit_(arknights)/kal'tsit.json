@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#B58F8F",
+      "Rationale": "沿用玫瑰粉红，降低亮度至达到 2.6:1，对比度合规且仍保留温柔感"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#C28483",
+      "Rationale": "在原暖红基础上略微加深，2.74:1，对应轻量警示"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#C180A9",
+      "Rationale": "紫粉系整体下压亮度，2.73:1，用于强调但不刺眼"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#AA84DA",
+      "Rationale": "维持冷紫色相，适度暗化至 2.70:1，呼应学者气质"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#D35B5B",
+      "Rationale": "原值已满足 3.5:1，无调整"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#B24444",
+      "Rationale": "原深红已满足 4.98:1，无调整"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#C38E66",
+      "Rationale": "保持蜜桃橙调，降亮度至 2.57:1，用于成功提示"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#9C9E2F",
+      "Rationale": "耳尖黄加深为低饱和橄榄黄，2.58:1，保持角色特征同时可读"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#77A05E",
+      "Rationale": "服装主绿降亮至 2.72:1，依旧是主题色"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#4AA99E",
+      "Rationale": "冷绿调微暗至 2.54:1，信息提示色"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#5D9DB8",
+      "Rationale": "冷光蓝下沉明度至 2.72:1，函数名高亮"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#359FBD",
+      "Rationale": "青蓝深化至 2.77:1，用于保留关键词高亮"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#4F83E3",
+      "Rationale": "互补蓝 3.33:1，本身合规，无需调整"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#8D91E5",
+      "Rationale": "柔紫降亮至 2.59:1，适合注解或次要标签"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#4C4B50",
+      "Rationale": "保持原对比度 7.8"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#6C6B6C",
+      "Rationale": "保持原对比度 4.79"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#5C5B5E",
+      "Rationale": "保持原对比度 6.09"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#F5F4E5",
+      "Rationale": "保持角色发色绿调白"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#ECECDF",
+      "Rationale": "Base -9/-8/-6"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#E2E3D8",
+      "Rationale": "Base -19/-17/-13"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#D2D3CA",
+      "Rationale": "Base -35/-33/-27"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#C2C3BC",
+      "Rationale": "进一步暗化"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#B2B3AE",
+      "Rationale": "用于折叠区域"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#A2A3A0",
+      "Rationale": "弹出菜单底色"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#929291",
+      "Rationale": "次级浮层"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#828283",
+      "Rationale": "最高层浮窗阴影"
+    }
+  ]
+}

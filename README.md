@@ -23,6 +23,11 @@
 
 	[![suzuran-icon](<characters/suzuran_(arknights)/img/suzuran-icon.png>)![suzuran-strip.png](<characters/suzuran_(arknights)/img/suzuran-strip.png>)](<characters/suzuran_(arknights)/README.md>)
 
+- [Kal'tsit](<characters/kal'tsit_(arknights)/README.md>), Arknights
+
+	[![kal'tsit-icon](<characters/kal'tsit_(arknights)/img/kal'tsit-icon.png>)![kal'tsit-strip.png](<characters/kal'tsit_(arknights)/img/kal'tsit-strip.png>)](<characters/kal'tsit_(arknights)/README.md>)
+
+
 ## 思路
 
 要查看本项目的配色生成思路，请参考 [APPROACH.md](APPROACH.md) 。
