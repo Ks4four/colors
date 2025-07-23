@@ -11,22 +11,21 @@
 
 以下角色的展示顺序按照创建顺序。
 
-- [Tachibana Nozomi](<characters/nozomi_(blue_archive)/README.md>), Blue Archive
-  
-	[![nozomi-icon](<characters/nozomi_(blue_archive)/img/nozomi-icon.png>)![nozomi-strip.png](<characters/nozomi_(blue_archive)/img/nozomi-strip.png>)](<characters/nozomi_(blue_archive)/README.md>)
+- [Tachibana Nozomi](<characters/nozomi_(blue_archive)/README.md>), Blue Archive; Dark theme
 
-- [Mon3tr](<characters/mon3tr_(arknights)/README.md>), Arknights
+  [![nozomi-icon](<characters/nozomi_(blue_archive)/img/nozomi-icon.png>)![nozomi-strip.png](<characters/nozomi_(blue_archive)/img/nozomi-strip.png>)](<characters/nozomi_(blue_archive)/README.md>)
 
-	[![mon3tr-icon](<characters/mon3tr_(arknights)/img/mon3tr-icon.png>)![mon3tr-strip.png](<characters/mon3tr_(arknights)/img/mon3tr-strip.png>)](<characters/mon3tr_(arknights)/README.md>)
+- [Mon3tr](<characters/mon3tr_(arknights)/README.md>), Arknights; Dark theme
 
-- [Suzuran](<characters/suzuran_(arknights)/README.md>), Arknights
+  [![mon3tr-icon](<characters/mon3tr_(arknights)/img/mon3tr-icon.png>)![mon3tr-strip.png](<characters/mon3tr_(arknights)/img/mon3tr-strip.png>)](<characters/mon3tr_(arknights)/README.md>)
 
-	[![suzuran-icon](<characters/suzuran_(arknights)/img/suzuran-icon.png>)![suzuran-strip.png](<characters/suzuran_(arknights)/img/suzuran-strip.png>)](<characters/suzuran_(arknights)/README.md>)
+- [Suzuran](<characters/suzuran_(arknights)/README.md>), Arknights; Light theme
 
-- [Kal'tsit](<characters/kal'tsit_(arknights)/README.md>), Arknights
+  [![suzuran-icon](<characters/suzuran_(arknights)/img/suzuran-icon.png>)![suzuran-strip.png](<characters/suzuran_(arknights)/img/suzuran-strip.png>)](<characters/suzuran_(arknights)/README.md>)
 
-	[![kal'tsit-icon](<characters/kal'tsit_(arknights)/img/kal'tsit-icon.png>)![kal'tsit-strip.png](<characters/kal'tsit_(arknights)/img/kal'tsit-strip.png>)](<characters/kal'tsit_(arknights)/README.md>)
+- [Kal'tsit](<characters/kal'tsit_(arknights)/README.md>), Arknights; Light theme
 
+  [![kal'tsit-icon](<characters/kal'tsit_(arknights)/img/kal'tsit-icon.png>)![kal'tsit-strip.png](<characters/kal'tsit_(arknights)/img/kal'tsit-strip.png>)](<characters/kal'tsit_(arknights)/README.md>)
 
 ## 思路
 

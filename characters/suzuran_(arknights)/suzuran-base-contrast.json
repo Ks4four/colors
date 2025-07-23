@@ -1,0 +1,107 @@
+{
+  "base": {
+    "name": "Base",
+    "hex": "#E7DCB4"
+  },
+  "Text_vs_Base": {
+    "thresholds": {
+      "normal": 4.5,
+      "strict": null
+    },
+    "rows": {
+      "Text": {
+        "ratio": 13.72,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Subtext0": {
+        "ratio": 9.91,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Subtext1": {
+        "ratio": 11.98,
+        "pass_normal": true,
+        "pass_strict": null
+      }
+    }
+  },
+  "Semantic_vs_Base": {
+    "thresholds": {
+      "normal": 2.5,
+      "strict": null
+    },
+    "rows": {
+      "Rosewater": {
+        "ratio": 4.55,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Flamingo": {
+        "ratio": 5.17,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Pink": {
+        "ratio": 4.82,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Mauve": {
+        "ratio": 5.25,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Red": {
+        "ratio": 4.27,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Maroon": {
+        "ratio": 4.47,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Peach": {
+        "ratio": 4.38,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Yellow": {
+        "ratio": 5.04,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Green": {
+        "ratio": 4.72,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Teal": {
+        "ratio": 4.83,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Sky": {
+        "ratio": 5.41,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Sapphire": {
+        "ratio": 4.16,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Blue": {
+        "ratio": 4.22,
+        "pass_normal": true,
+        "pass_strict": null
+      },
+      "Lavender": {
+        "ratio": 4.34,
+        "pass_normal": true,
+        "pass_strict": null
+      }
+    }
+  }
+}

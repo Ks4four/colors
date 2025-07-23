@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#F5E0DC",
+      "Rationale": "柔和粉调，≥ 3:1"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#F2CDCD",
+      "Rationale": "轻粉"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#F5C2E7",
+      "Rationale": "樱花粉"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#CBA6F7",
+      "Rationale": "淡紫"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#F38BA8",
+      "Rationale": "强红"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#EBA0AC",
+      "Rationale": "玫瑰红"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#FAB387",
+      "Rationale": "蜜桃"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#F9E2AF",
+      "Rationale": "光环呼应"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#A6E3A1",
+      "Rationale": "绿叶"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#94E2D5",
+      "Rationale": "湖水"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#89DCEB",
+      "Rationale": "天空"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#74C7EC",
+      "Rationale": "青蓝"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#89B4FA",
+      "Rationale": "明蓝"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#B4BEFE",
+      "Rationale": "薰衣草"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#F4F9E3",
+      "Rationale": "抽样高亮白"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#CCD2BD",
+      "Rationale": "Text_L – 12"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#E0E6D0",
+      "Rationale": "Text_L – 6"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#292A3C",
+      "Rationale": "制服暗蓝"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#303143",
+      "Rationale": "+3"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#38394C",
+      "Rationale": "+6"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#47495C",
+      "Rationale": "+12"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#58596D",
+      "Rationale": "+18"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#686A7F",
+      "Rationale": "+24"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#7A7B91",
+      "Rationale": "+30"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#8C8DA3",
+      "Rationale": "+36"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#9EA0B6",
+      "Rationale": "Base_L + 42"
+    }
+  ]
+}
