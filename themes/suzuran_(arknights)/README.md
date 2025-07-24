@@ -26,7 +26,7 @@
 
 查看以下图片，这是不言自明的。
 
-![suzuran-sample](./img/sample.png)
+![suzuran-sample](./assets/sample.png)
 
 ## 移植
 

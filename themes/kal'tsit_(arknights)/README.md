@@ -26,7 +26,7 @@
 
 查看以下图片，这是不言自明的。
 
-![kal'tsit-sample](./img/sample.png)
+![kal'tsit-sample](./assets/sample.png)
 
 ## 移植
 

@@ -24,7 +24,7 @@
 
 查看以下图片，这是不言自明的。
 
-![nozomi-sample](./img/sample.png)
+![nozomi-sample](./assets/sample.png)
 
 ## 移植
 

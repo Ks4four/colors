@@ -25,7 +25,7 @@
 
 查看以下图片，这是不言自明的。
 
-![mon3tr-sample](./img/sample.png)
+![mon3tr-sample](./assets/sample.png)
 
 ## 移植
 
