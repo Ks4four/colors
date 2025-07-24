@@ -19,13 +19,13 @@
 
 ### 矩阵
 
-对比度矩阵分析的原始数据为 [JSON 格式](mon3tr-contrast.json)（另提供一份 [仅与 base 对比的版本](mon3tr-base-contrast.json)），同时也提供了一份更易于阅读的 [Markdown 版本](mon3tr-contrast.md)。
+对比度矩阵分析的原始数据为 [JSON 格式](contrast.json)（另提供一份 [仅与 base 对比的版本](base-contrast.json)），同时也提供了一份更易于阅读的 [Markdown 版本](contrast.md)。
 
 ### 来源
 
 查看以下图片，这是不言自明的。
 
-![mon3tr-sample](./img/mon3tr-sample.png)
+![mon3tr-sample](./img/sample.png)
 
 ## 移植
 
@@ -36,7 +36,7 @@
 
 ```lua
 mocha = {
--- mon3tr	
+-- mon3tr
 
     rosewater = "#f5e5e0",
     flamingo = "#f2c9c0",

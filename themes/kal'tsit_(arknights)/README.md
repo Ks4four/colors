@@ -9,7 +9,7 @@
 ---
 
 > `凯尔希` 是这个项目的第 4 个角色。在做这个角色的时候，引入了 JSON 和自动化脚本。对比前三个来看，这几乎是最成功的。
-> 
+>
 > JSON 结构设计、对比度结果、语义色微调……做到这个角色上才算是形成一个 workflow。
 >
 > 有趣的是，这肯定比 [Mon3tr](../mon3tr_(arknights)/README.md) 还要成功，不过在语义上，Mon3tr 应该是 Kal'tsit 的 dark mode。
@@ -20,13 +20,13 @@
 
 ### 矩阵
 
-对比度矩阵分析的原始数据为 [JSON 格式](kal'tsit-contrast.json)（另提供一份 [仅与 base 对比的版本](kal'tsit-base-contrast.json)），同时也提供了一份更易于阅读的 [Markdown 版本](kal'tsit-contrast.md)。
+对比度矩阵分析的原始数据为 [JSON 格式](contrast.json)（另提供一份 [仅与 base 对比的版本](base-contrast.json)），同时也提供了一份更易于阅读的 [Markdown 版本](contrast.md)。
 
 ### 来源
 
 查看以下图片，这是不言自明的。
 
-![kal'tsit-sample](./img/kal'tsit-sample.png)
+![kal'tsit-sample](./img/sample.png)
 
 ## 移植
 
