@@ -27,6 +27,10 @@
 
   [![kal'tsit-icon](<themes/kal'tsit_(arknights)/assets/icon.png>)![kal'tsit-strip.png](<themes/kal'tsit_(arknights)/assets/strip.png>)](<themes/kal'tsit_(arknights)/README.md>)
 
+- [Priestess](<themes/Priestess_(arknights)/README.md>), Arknights; Dark theme
+
+  [![Priestess-icon](<themes/Priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/Priestess_(arknights)/assets/strip.png>)](<themes/Priestess_(arknights)/README.md>)
+
 ## 思路
 
 要查看本项目的配色生成思路，请参考 [APPROACH.md](APPROACH.md) 。

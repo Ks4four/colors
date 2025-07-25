@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#EFDDDA",
+      "Rationale": "取自普瑞赛斯肌肤高光的柔和腮红，降低饱和度以保持克制的温暖感。"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#E9CCCC",
+      "Rationale": "稍微更深的腮红阴影，去饱和后维持低对比。"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#AF9FCE",
+      "Rationale": "对其深紫色裙摆(#433364)提亮而得的柔粉，用于温和强调。"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#D5B3F8",
+      "Rationale": "直接抽样自眼睛色，最具代表性的强调色。"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#DD96A0",
+      "Rationale": "唇色的柔和化版本，在冷色系中保持辨识度而不过分鲜艳。"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#E1A5AA",
+      "Rationale": "唇色阴影的更深一阶，用于二级警示。"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#E3AE90",
+      "Rationale": "来源于皮肤阴影的暖调，用来增加亲和力。"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#E2CFAA",
+      "Rationale": "取自胸牌边缘的浅米色塑料，色相向黄并压低饱和度。"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#ABCF9F",
+      "Rationale": "实验室仪器微弱的屏幕绿光，经去饱和后用于成功提示。"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#96C9C2",
+      "Rationale": "将上面的绿偏蓝后得到的冷青色，营造医疗与科技感。"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#9DCED6",
+      "Rationale": "衣料金属反光中的青蓝色，经柔化后用作信息提示。"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#8CBED4",
+      "Rationale": "胸牌挂带上的暗蓝，经去饱和后作为链接/次级强调。"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#99B2E4",
+      "Rationale": "来自设备屏幕的低饱和蓝光，用于主要信息高亮。"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#C0C4EE",
+      "Rationale": "将 Mauve 与外套白混合得到的浅紫，补充整体的柔和度。"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#DAD7D9",
+      "Rationale": "直接采样自实验服主色，足够亮且不过曝，保证可读性。"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#B2ACB0",
+      "Rationale": "在 Text 的基础上下调 16%，用于注释/次要信息。"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#C6C1C4",
+      "Rationale": "在 Text 的基础上下调 8%，用于次级文本。"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#140F15",
+      "Rationale": "在原 Base(#1C151E) 基础上再降约 3% 明度，保持紫黑冷感并进一步减眩。"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#0B080C",
+      "Rationale": "同幅度下压，用于更深层容器/侧栏，确保与 Base 仍有细微层差。"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#030203",
+      "Rationale": "接近纯黑但仍带微紫；用于最外层背景、分隔线或遮罩。"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#2A1F2D",
+      "Rationale": "Base 提亮阶差保持不变（≈ +8%），用于行号栏/弱面板。"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#413045",
+      "Rationale": "较 Surface0 再亮一档（≈ +16%），常用于选区背景。"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#553F5A",
+      "Rationale": "次级面板/未聚焦标签，亮度递增（≈ +23%）。"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#6C5072",
+      "Rationale": "浮动窗口/提示框底色，维持 +31% 阶差。"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#82608A",
+      "Rationale": "补全菜单、悬浮条目，+39% 阶差。"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#97749E",
+      "Rationale": "活动/聚焦状态背景，+47% 阶差，仍保持克制的低对比。"
+    }
+  ]
+}
