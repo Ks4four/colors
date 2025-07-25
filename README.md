@@ -29,7 +29,7 @@
 
 - [Priestess](<themes/Priestess_(arknights)/README.md>), Arknights; Dark theme
 
-  [![Priestess-icon](<themes/Priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/Priestess_(arknights)/assets/strip.png>)](<themes/Priestess_(arknights)/README.md>)
+  [![Priestess-icon](<themes/Priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/piestess_(arknights)/assets/strip.png>)](<themes/priestess_(arknights)/README.md>)
 
 ## 思路
 
