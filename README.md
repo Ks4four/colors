@@ -27,9 +27,9 @@
 
   [![kal'tsit-icon](<themes/kal'tsit_(arknights)/assets/icon.png>)![kal'tsit-strip.png](<themes/kal'tsit_(arknights)/assets/strip.png>)](<themes/kal'tsit_(arknights)/README.md>)
 
-- [Priestess](<themes/Priestess_(arknights)/README.md>), Arknights; Dark theme
+- [Priestess](<themes/priestess_(arknights)/README.md>), Arknights; Dark theme
 
-  [![Priestess-icon](<themes/Priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/priestess_(arknights)/assets/strip.png>)](<themes/priestess_(arknights)/README.md>)
+  [![Priestess-icon](<themes/priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/priestess_(arknights)/assets/strip.png>)](<themes/priestess_(arknights)/README.md>)
 
 ## 思路
 
