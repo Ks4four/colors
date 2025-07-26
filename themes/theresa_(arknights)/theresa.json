@@ -74,17 +74,17 @@
   "Text": [
     {
       "Name": "Text",
-      "Hex": "#27212E",
+      "Hex": "#534853",
       "Rationale": "机械臂护板的深紫黑，确保在浅底色上高对比。"
     },
     {
       "Name": "Subtext0",
-      "Hex": "#453B52",
+      "Hex": "#746474",
       "Rationale": "Text 提亮 12 %，用于副标题或标签。"
     },
     {
       "Name": "Subtext1",
-      "Hex": "#362E40",
+      "Hex": "#635663",
       "Rationale": "Text 提亮 6 %，用于次要说明文字。"
     }
   ],

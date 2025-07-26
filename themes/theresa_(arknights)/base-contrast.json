@@ -10,17 +10,17 @@
     },
     "rows": {
       "Text": {
-        "ratio": 11.65,
+        "ratio": 6.47,
         "pass_normal": true,
         "pass_strict": null
       },
       "Subtext0": {
-        "ratio": 7.82,
-        "pass_normal": true,
+        "ratio": 4.1,
+        "pass_normal": false,
         "pass_strict": null
       },
       "Subtext1": {
-        "ratio": 9.65,
+        "ratio": 5.14,
         "pass_normal": true,
         "pass_strict": null
       }

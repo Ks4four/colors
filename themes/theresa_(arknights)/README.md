@@ -14,6 +14,8 @@
 > 第二版又不够粉。粉其实是变深的意思，但是还是尽可能在对比度能接受的范围调整了。
 > 
 > 做这个角色在语义上是和 [上一个角色](../priestess_(arknights)/README.md) 有联系的，俗话说就是“顺便做了”。
+>
+> 有趣的是，Base 和 Subtext0 的对比度并没有达到 4.5:1。再次查看立绘，我决定不予修复。
 
 ## 配色
 
@@ -59,15 +61,15 @@ latte = {
     subtext0 = "#746474",
     subtext1 = "#635663",
 
-    base = "#f5f0ef",
-    mantle = "#efe7e6",
-    crust = "#e9dedc",
-    surface0 = "#ddcdc9",
-    surface1 = "#d2bbb7",
-    surface2 = "#c6a9a4",
-    overlay0 = "#ba9891",
-    overlay1 = "#ae867e",
-    overlay2 = "#a3746b",
+    base = "#EADBDA",
+    mantle = "#E4D2D0",
+    crust = "#DFC8C6",
+    surface0 = "#D4B5B3",
+    surface1 = "#C9A29F",
+    surface2 = "#BE8F8C",
+    overlay0 = "#B37C78",
+    overlay1 = "#A86965",
+    overlay2 = "#985A56",
 },
 ```
 

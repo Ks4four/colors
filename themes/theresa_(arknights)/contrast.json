@@ -8,141 +8,141 @@
       "rows": {
         "Text": {
           "Base": {
-            "ratio": 11.65,
+            "ratio": 6.47,
             "pass_normal": true,
             "pass_strict": null
           },
           "Mantle": {
-            "ratio": 10.74,
+            "ratio": 5.96,
             "pass_normal": true,
             "pass_strict": null
           },
           "Crust": {
-            "ratio": 9.84,
+            "ratio": 5.46,
             "pass_normal": true,
             "pass_strict": null
           },
           "Surface0": {
-            "ratio": 8.23,
+            "ratio": 4.57,
             "pass_normal": true,
             "pass_strict": null
           },
           "Surface1": {
-            "ratio": 6.81,
-            "pass_normal": true,
+            "ratio": 3.78,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Surface2": {
-            "ratio": 5.58,
-            "pass_normal": true,
+            "ratio": 3.1,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Overlay0": {
-            "ratio": 4.52,
-            "pass_normal": true,
+            "ratio": 2.51,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Overlay1": {
-            "ratio": 3.63,
+            "ratio": 2.01,
             "pass_normal": false,
             "pass_strict": null
           },
           "Overlay2": {
-            "ratio": 2.93,
+            "ratio": 1.62,
             "pass_normal": false,
             "pass_strict": null
           }
         },
         "Subtext0": {
           "Base": {
-            "ratio": 7.82,
-            "pass_normal": true,
+            "ratio": 4.1,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Mantle": {
-            "ratio": 7.21,
-            "pass_normal": true,
+            "ratio": 3.78,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Crust": {
-            "ratio": 6.61,
-            "pass_normal": true,
+            "ratio": 3.46,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Surface0": {
-            "ratio": 5.53,
-            "pass_normal": true,
+            "ratio": 2.9,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Surface1": {
-            "ratio": 4.58,
-            "pass_normal": true,
+            "ratio": 2.4,
+            "pass_normal": false,
             "pass_strict": null
           },
           "Surface2": {
-            "ratio": 3.75,
+            "ratio": 1.96,
             "pass_normal": false,
             "pass_strict": null
           },
           "Overlay0": {
-            "ratio": 3.03,
+            "ratio": 1.59,
             "pass_normal": false,
             "pass_strict": null
           },
           "Overlay1": {
-            "ratio": 2.44,
+            "ratio": 1.28,
             "pass_normal": false,
             "pass_strict": null
           },
           "Overlay2": {
-            "ratio": 1.97,
+            "ratio": 1.03,
             "pass_normal": false,
             "pass_strict": null
           }
         },
         "Subtext1": {
           "Base": {
-            "ratio": 9.65,
+            "ratio": 5.14,
             "pass_normal": true,
             "pass_strict": null
           },
           "Mantle": {
-            "ratio": 8.9,
+            "ratio": 4.74,
             "pass_normal": true,
             "pass_strict": null
           },
           "Crust": {
-            "ratio": 8.15,
-            "pass_normal": true,
-            "pass_strict": null
-          },
-          "Surface0": {
-            "ratio": 6.82,
-            "pass_normal": true,
-            "pass_strict": null
-          },
-          "Surface1": {
-            "ratio": 5.64,
-            "pass_normal": true,
-            "pass_strict": null
-          },
-          "Surface2": {
-            "ratio": 4.62,
-            "pass_normal": true,
-            "pass_strict": null
-          },
-          "Overlay0": {
-            "ratio": 3.74,
+            "ratio": 4.34,
             "pass_normal": false,
             "pass_strict": null
           },
-          "Overlay1": {
+          "Surface0": {
+            "ratio": 3.64,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface1": {
             "ratio": 3.01,
             "pass_normal": false,
             "pass_strict": null
           },
+          "Surface2": {
+            "ratio": 2.46,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 2.0,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.6,
+            "pass_normal": false,
+            "pass_strict": null
+          },
           "Overlay2": {
-            "ratio": 2.42,
+            "ratio": 1.29,
             "pass_normal": false,
             "pass_strict": null
           }
