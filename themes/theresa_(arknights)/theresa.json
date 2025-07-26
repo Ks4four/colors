@@ -74,64 +74,64 @@
   "Text": [
     {
       "Name": "Text",
-      "Hex": "#534853",
+      "Hex": "#27212E",
       "Rationale": "机械臂护板的深紫黑，确保在浅底色上高对比。"
     },
     {
       "Name": "Subtext0",
-      "Hex": "#746474",
+      "Hex": "#453B52",
       "Rationale": "Text 提亮 12 %，用于副标题或标签。"
     },
     {
       "Name": "Subtext1",
-      "Hex": "#635663",
+      "Hex": "#362E40",
       "Rationale": "Text 提亮 6 %，用于次要说明文字。"
     }
   ],
   "UI": [
     {
       "Name": "Base",
-      "Hex": "#f5f0ef",
+      "Hex": "#EADBDA",
       "Rationale": "发色里最纯净的白粉，长时间阅读舒适。"
     },
     {
       "Name": "Mantle",
-      "Hex": "#efe7e6",
+      "Hex": "#E4D2D0",
       "Rationale": "Base −3 % 亮度，次级面板背景。"
     },
     {
       "Name": "Crust",
-      "Hex": "#e9dedc",
+      "Hex": "#DFC8C6",
       "Rationale": "Base −6 % 亮度，滚动区域或页边。"
     },
     {
       "Name": "Surface0",
-      "Hex": "#ddcdc9",
+      "Hex": "#D4B5B3",
       "Rationale": "Base −12 % 亮度，卡片底色。"
     },
     {
       "Name": "Surface1",
-      "Hex": "#d2bbb7",
+      "Hex": "#C9A29F",
       "Rationale": "Base −18 % 亮度，浅层浮层。"
     },
     {
       "Name": "Surface2",
-      "Hex": "#c6a9a4",
+      "Hex": "#BE8F8C",
       "Rationale": "Base −24 % 亮度，深层分割面。"
     },
     {
       "Name": "Overlay0",
-      "Hex": "#ba9891",
+      "Hex": "#B37C78",
       "Rationale": "Base −30 % 亮度，悬浮按钮等元素。"
     },
     {
       "Name": "Overlay1",
-      "Hex": "#ae867e",
+      "Hex": "#A86965",
       "Rationale": "Base −36 % 亮度，次级 Overlay。"
     },
     {
       "Name": "Overlay2",
-      "Hex": "#a3746b",
+      "Hex": "#985A56",
       "Rationale": "Base −42 % 亮度，用于最深层 Overlay。"
     }
   ]

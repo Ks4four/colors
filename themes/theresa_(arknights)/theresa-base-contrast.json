@@ -1,7 +1,7 @@
 {
   "base": {
     "name": "Base",
-    "hex": "#f5f0ef"
+    "hex": "#EADBDA"
   },
   "Text_vs_Base": {
     "thresholds": {
@@ -10,17 +10,17 @@
     },
     "rows": {
       "Text": {
-        "ratio": 7.68,
+        "ratio": 11.65,
         "pass_normal": true,
         "pass_strict": null
       },
       "Subtext0": {
-        "ratio": 4.87,
+        "ratio": 7.82,
         "pass_normal": true,
         "pass_strict": null
       },
       "Subtext1": {
-        "ratio": 6.11,
+        "ratio": 9.65,
         "pass_normal": true,
         "pass_strict": null
       }
@@ -33,72 +33,72 @@
     },
     "rows": {
       "Rosewater": {
-        "ratio": 3.03,
+        "ratio": 2.55,
         "pass_normal": true,
         "pass_strict": null
       },
       "Flamingo": {
-        "ratio": 3.08,
+        "ratio": 2.59,
         "pass_normal": true,
         "pass_strict": null
       },
       "Pink": {
-        "ratio": 3.03,
+        "ratio": 2.55,
         "pass_normal": true,
         "pass_strict": null
       },
       "Mauve": {
-        "ratio": 3.03,
+        "ratio": 2.55,
         "pass_normal": true,
         "pass_strict": null
       },
       "Red": {
-        "ratio": 3.86,
+        "ratio": 3.25,
         "pass_normal": true,
         "pass_strict": null
       },
       "Maroon": {
-        "ratio": 6.22,
+        "ratio": 5.24,
         "pass_normal": true,
         "pass_strict": null
       },
       "Peach": {
-        "ratio": 3.03,
+        "ratio": 2.55,
         "pass_normal": true,
         "pass_strict": null
       },
       "Yellow": {
-        "ratio": 3.09,
+        "ratio": 2.6,
         "pass_normal": true,
         "pass_strict": null
       },
       "Green": {
-        "ratio": 3.01,
+        "ratio": 2.53,
         "pass_normal": true,
         "pass_strict": null
       },
       "Teal": {
-        "ratio": 3.04,
+        "ratio": 2.55,
         "pass_normal": true,
         "pass_strict": null
       },
       "Sky": {
-        "ratio": 3.07,
+        "ratio": 2.58,
         "pass_normal": true,
         "pass_strict": null
       },
       "Sapphire": {
-        "ratio": 3.02,
+        "ratio": 2.54,
         "pass_normal": true,
         "pass_strict": null
       },
       "Blue": {
-        "ratio": 3.7,
+        "ratio": 3.12,
         "pass_normal": true,
         "pass_strict": null
       },
       "Lavender": {
-        "ratio": 3.04,
+        "ratio": 2.56,
         "pass_normal": true,
         "pass_strict": null
       }
