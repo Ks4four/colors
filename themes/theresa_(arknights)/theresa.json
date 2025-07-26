@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#cf6d7d",
+      "Rationale": "取自发丝最亮的淡粉高光，微降亮度以达 3:1 对比。"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#dd6363",
+      "Rationale": "发梢柔红再加深，保留温柔感同时提升可读性。"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#ce6e7b",
+      "Rationale": "源于眸色的粉红，稍暗处理后仍是最具识别度的强调色。"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#af78af",
+      "Rationale": "肩甲紫灰低明度版，维持优雅的中性紫调。"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#d7425b",
+      "Rationale": "在 Pink 基础上提饱和降亮度，原方案已符合 3:1，无需调整。"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#8a4254",
+      "Rationale": "进一步加深 Red，保留庄重古典气质。"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#ca7623",
+      "Rationale": "胸口源石橙光向深橘偏移，暖而不刺眼。"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#a7851d",
+      "Rationale": "以 Peach 为基底转黄并降亮，形成柔和芥末黄用于警示。"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#4b9b66",
+      "Rationale": "粉—绿互补色的较深版本，用于成功状态且满足对比。"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#419891",
+      "Rationale": "在 Green 基础上加青并降亮，作为中立信息色。"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#4692b8",
+      "Rationale": "斗篷高光蓝调适度加深，保留轻盈感。"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#5d8fc1",
+      "Rationale": "Sky 再深一阶的安定蓝，用于次级强调。"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#597bc0",
+      "Rationale": "原方案已达标，继续承担链接/可交互元素色。"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#8d82c3",
+      "Rationale": "由 Mauve 转冷后加深，适合被动/选中态背景。"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#534853",
+      "Rationale": "机械臂护板的深紫黑，确保在浅底色上高对比。"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#746474",
+      "Rationale": "Text 提亮 12 %，用于副标题或标签。"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#635663",
+      "Rationale": "Text 提亮 6 %，用于次要说明文字。"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#f5f0ef",
+      "Rationale": "发色里最纯净的白粉，长时间阅读舒适。"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#efe7e6",
+      "Rationale": "Base −3 % 亮度，次级面板背景。"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#e9dedc",
+      "Rationale": "Base −6 % 亮度，滚动区域或页边。"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#ddcdc9",
+      "Rationale": "Base −12 % 亮度，卡片底色。"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#d2bbb7",
+      "Rationale": "Base −18 % 亮度，浅层浮层。"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#c6a9a4",
+      "Rationale": "Base −24 % 亮度，深层分割面。"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#ba9891",
+      "Rationale": "Base −30 % 亮度，悬浮按钮等元素。"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#ae867e",
+      "Rationale": "Base −36 % 亮度，次级 Overlay。"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#a3746b",
+      "Rationale": "Base −42 % 亮度，用于最深层 Overlay。"
+    }
+  ]
+}

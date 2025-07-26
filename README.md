@@ -31,6 +31,10 @@
 
   [![Priestess-icon](<themes/priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/priestess_(arknights)/assets/strip.png>)](<themes/priestess_(arknights)/README.md>)
 
+- [Theresa](<themes/theresa_(arknights)/README.md>), Arknights; Light theme
+
+	[![Theresa-icon](<themes/theresa_(arknights)/assets/icon.png>)![Theresa-strip.png](<themes/theresa_(arknights)/assets/strip.png>)](<themes/theresa_(arknights)/README.md>)
+
 ## 思路
 
 要查看本项目的配色生成思路，请参考 [APPROACH.md](APPROACH.md) 。
