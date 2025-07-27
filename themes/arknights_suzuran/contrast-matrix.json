@@ -1,0 +1,1838 @@
+{
+  "meta": {
+    "source": "suzuran.json"
+  },
+  "matrices": {
+    "Text_vs_UI": {
+      "thresholds": {
+        "normal": 4.5,
+        "strict": null
+      },
+      "rows": {
+        "Text": {
+          "Base": {
+            "ratio": 13.72,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 12.45,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 11.27,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 9.21,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 7.44,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 5.9,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 4.62,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 3.61,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 2.79,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Subtext0": {
+          "Base": {
+            "ratio": 9.91,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 8.99,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 8.14,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 6.66,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 5.38,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 4.26,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 3.34,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 2.61,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 2.01,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Subtext1": {
+          "Base": {
+            "ratio": 11.98,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 10.87,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 9.84,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 8.04,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 6.5,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 5.15,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 4.04,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 3.16,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 2.43,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        }
+      }
+    },
+    "Semantic_vs_UI": {
+      "thresholds": {
+        "normal": 2.5,
+        "strict": null
+      },
+      "rows": {
+        "Rosewater": {
+          "Base": {
+            "ratio": 4.55,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.13,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.74,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.05,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.47,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.96,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.53,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.2,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.08,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Flamingo": {
+          "Base": {
+            "ratio": 5.17,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.69,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 4.25,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.47,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.8,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.22,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.74,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.36,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.05,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Pink": {
+          "Base": {
+            "ratio": 4.82,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.37,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.96,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.24,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.61,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.07,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.62,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.27,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.02,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Mauve": {
+          "Base": {
+            "ratio": 5.25,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.77,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 4.32,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.53,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.85,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.26,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.77,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.38,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.07,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Red": {
+          "Base": {
+            "ratio": 4.27,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 3.87,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.51,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 2.86,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.31,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.84,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.44,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.12,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.15,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Maroon": {
+          "Base": {
+            "ratio": 4.47,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.05,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.67,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.0,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.42,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.92,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.5,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.18,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.1,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Peach": {
+          "Base": {
+            "ratio": 4.38,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 3.97,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.6,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 2.94,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.37,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.88,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.48,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.15,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.12,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Yellow": {
+          "Base": {
+            "ratio": 5.04,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.57,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 4.14,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.38,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.73,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.17,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.7,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.33,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.02,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Green": {
+          "Base": {
+            "ratio": 4.72,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.29,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.88,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.17,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.56,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.03,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.59,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.24,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.04,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Teal": {
+          "Base": {
+            "ratio": 4.83,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.38,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.97,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.24,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.62,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.08,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.63,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.27,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.02,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Sky": {
+          "Base": {
+            "ratio": 5.41,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 4.91,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 4.45,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 3.63,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.93,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 2.33,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.82,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.43,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.1,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Sapphire": {
+          "Base": {
+            "ratio": 4.16,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 3.78,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.42,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 2.79,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.26,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.79,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.4,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.1,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.18,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Blue": {
+          "Base": {
+            "ratio": 4.22,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 3.83,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.47,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 2.83,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.29,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.81,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.42,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.11,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.17,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        },
+        "Lavender": {
+          "Base": {
+            "ratio": 4.34,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Mantle": {
+            "ratio": 3.94,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Crust": {
+            "ratio": 3.56,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface0": {
+            "ratio": 2.91,
+            "pass_normal": true,
+            "pass_strict": null
+          },
+          "Surface1": {
+            "ratio": 2.35,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Surface2": {
+            "ratio": 1.87,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay0": {
+            "ratio": 1.46,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay1": {
+            "ratio": 1.14,
+            "pass_normal": false,
+            "pass_strict": null
+          },
+          "Overlay2": {
+            "ratio": 1.14,
+            "pass_normal": false,
+            "pass_strict": null
+          }
+        }
+      }
+    },
+    "Semantic_vs_Semantic": {
+      "thresholds": {
+        "normal": null,
+        "strict": null
+      },
+      "rows": {
+        "Rosewater": {
+          "Rosewater": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.14,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Flamingo": {
+          "Rosewater": {
+            "ratio": 1.14,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.24,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.23,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Pink": {
+          "Rosewater": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.1,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.14,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Mauve": {
+          "Rosewater": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.23,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.2,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.26,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.25,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Red": {
+          "Rosewater": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.23,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.27,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Maroon": {
+          "Rosewater": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Peach": {
+          "Rosewater": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.1,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.2,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.1,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.24,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Yellow": {
+          "Rosewater": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.18,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Green": {
+          "Rosewater": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Teal": {
+          "Rosewater": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.1,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Sky": {
+          "Rosewater": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.27,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.24,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.3,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.28,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.25,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Sapphire": {
+          "Rosewater": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.24,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.26,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.07,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.13,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.3,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Blue": {
+          "Rosewater": {
+            "ratio": 1.08,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.23,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.14,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.25,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.06,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.12,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.15,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.28,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        },
+        "Lavender": {
+          "Rosewater": {
+            "ratio": 1.05,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Flamingo": {
+            "ratio": 1.19,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Pink": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Mauve": {
+            "ratio": 1.21,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Red": {
+            "ratio": 1.02,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Maroon": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Peach": {
+            "ratio": 1.01,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Yellow": {
+            "ratio": 1.16,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Green": {
+            "ratio": 1.09,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Teal": {
+            "ratio": 1.11,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sky": {
+            "ratio": 1.25,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Sapphire": {
+            "ratio": 1.04,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Blue": {
+            "ratio": 1.03,
+            "pass_normal": null,
+            "pass_strict": null
+          },
+          "Lavender": {
+            "ratio": 1.0,
+            "pass_normal": null,
+            "pass_strict": null
+          }
+        }
+      }
+    }
+  }
+}

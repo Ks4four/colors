@@ -2,7 +2,7 @@
 
 一个关于普通人（非程序员、非设计师）如何将动漫角色转换为工具颜色主题的项目。
 
-> If anime avatar users are the best programmers, where are all the anime colorschemes? \
+> If anime avatar users are the best programmers, where are all the anime colorschemes?  
 > 如果用二次元头像的都是程序员大佬，那么二次元主题在哪？
 
 本项目采用 OpenAI o3。
@@ -11,34 +11,34 @@
 
 以下角色的展示顺序按照创建顺序。
 
-- [Tachibana Nozomi](<themes/nozomi_(blue_archive)/README.md>), Blue Archive; Dark theme
+- [Tachibana Nozomi](themes/blue-archive_nozomi/README.md), Blue Archive; Dark theme
 
-  [![nozomi-icon](<themes/nozomi_(blue_archive)/assets/icon.png>)![nozomi-strip.png](<themes/nozomi_(blue_archive)/assets/strip.png>)](<themes/nozomi_(blue_archive)/README.md>)
+  [![nozomi-icon](themes/blue-archive_nozomi/assets/icon.png)![nozomi-strip](themes/blue-archive_nozomi/assets/strip.png)](themes/blue-archive_nozomi/README.md)
 
-- [Mon3tr](<themes/mon3tr_(arknights)/README.md>), Arknights; Dark theme
+- [Mon3tr](themes/arknights_mon3tr/README.md), Arknights; Dark theme
 
-  [![mon3tr-icon](<themes/mon3tr_(arknights)/assets/icon.png>)![mon3tr-strip.png](<themes/mon3tr_(arknights)/assets/strip.png>)](<themes/mon3tr_(arknights)/README.md>)
+  [![mon3tr-icon](themes/arknights_mon3tr/assets/icon.png)![mon3tr-strip](themes/arknights_mon3tr/assets/strip.png)](themes/arknights_mon3tr/README.md)
 
-- [Suzuran](<themes/suzuran_(arknights)/README.md>), Arknights; Light theme
+- [Suzuran](themes/arknights_suzuran/README.md), Arknights; Light theme
 
-  [![suzuran-icon](<themes/suzuran_(arknights)/assets/icon.png>)![suzuran-strip.png](<themes/suzuran_(arknights)/assets/strip.png>)](<themes/suzuran_(arknights)/README.md>)
+  [![suzuran-icon](themes/arknights_suzuran/assets/icon.png)![suzuran-strip](themes/arknights_suzuran/assets/strip.png)](themes/arknights_suzuran/README.md)
 
-- [Kal'tsit](<themes/kal'tsit_(arknights)/README.md>), Arknights; Light theme
+- [Kal'tsit](themes/arknights_kaltsit/README.md), Arknights; Light theme
 
-  [![kal'tsit-icon](<themes/kal'tsit_(arknights)/assets/icon.png>)![kal'tsit-strip.png](<themes/kal'tsit_(arknights)/assets/strip.png>)](<themes/kal'tsit_(arknights)/README.md>)
+  [![kaltsit-icon](themes/arknights_kaltsit/assets/icon.png)![kaltsit-strip](themes/arknights_kaltsit/assets/strip.png)](themes/arknights_kaltsit/README.md)
 
-- [Priestess](<themes/priestess_(arknights)/README.md>), Arknights; Dark theme
+- [Priestess](themes/arknights_priestess/README.md), Arknights; Dark theme
 
-  [![Priestess-icon](<themes/priestess_(arknights)/assets/icon.png>)![Priestess-strip.png](<themes/priestess_(arknights)/assets/strip.png>)](<themes/priestess_(arknights)/README.md>)
+  [![priestess-icon](themes/arknights_priestess/assets/icon.png)![priestess-strip](themes/arknights_priestess/assets/strip.png)](themes/arknights_priestess/README.md)
 
-- [Theresa](<themes/theresa_(arknights)/README.md>), Arknights; Light theme
+- [Theresa](themes/arknights_theresa/README.md), Arknights; Light theme
 
-	[![Theresa-icon](<themes/theresa_(arknights)/assets/icon.png>)![Theresa-strip.png](<themes/theresa_(arknights)/assets/strip.png>)](<themes/theresa_(arknights)/README.md>)
+  [![theresa-icon](themes/arknights_theresa/assets/icon.png)![theresa-strip](themes/arknights_theresa/assets/strip.png)](themes/arknights_theresa/README.md)
 
 ## 思路
 
-要查看本项目的配色生成思路，请参考 [APPROACH.md](APPROACH.md) 。
+要查看本项目的配色生成思路，请参考 [思路](docs/APPROACH.md)。
 
 ## 移植
 
-要查看常用软件的简单移植思路，请参考 [PORTING.md](PORTING.md)。
+要查看常用软件的简单移植思路，请参考 [移植](docs/PORTING.md)。

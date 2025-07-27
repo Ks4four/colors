@@ -1,57 +1,98 @@
 #!/usr/bin/env python3
-# src/strip.py
-import argparse, json, sys
-from PIL import Image
+# -*- coding: utf-8 -*-
+"""
+strip.py — create a colour‑strip PNG from a palette JSON.
+
+Examples
+--------
+python src/strip.py themes/arknights_kaltsit/kaltsit.json --out kaltsit_strip.png
+python src/strip.py palette.json --vertical -w 40 -h 40 --dark
+"""
+
+from __future__ import annotations
 from pathlib import Path
+import argparse, json, sys, yaml
+from typing import List, Dict
+from PIL import Image
+from rich.console import Console
 
-SEMANTIC_ORDER = [
-    "Rosewater","Flamingo","Pink","Mauve","Red","Maroon",
-    "Peach","Yellow","Green","Teal","Sky","Sapphire","Blue","Lavender"
-]
-TEXT_ORDER = ["Text","Subtext0","Subtext1"]
-UI_ORDER_LIGHT = [
-    "Base","Mantle","Crust",
-    "Surface0","Surface1","Surface2",
-    "Overlay0","Overlay1","Overlay2"
-]
-UI_ORDER_DARK = list(reversed(UI_ORDER_LIGHT))
+console = Console(width=100)
 
-def build_order(theme_type: str):
-    ui_part = UI_ORDER_DARK if theme_type == "dark" else UI_ORDER_LIGHT
-    return SEMANTIC_ORDER + TEXT_ORDER + ui_part
 
-def load_colors(path: Path):
-    data = json.loads(path.read_text('utf-8'))
-    colors = {d['Name']: d['Hex'] for group in data.values() for d in group}
-    return colors
+# ------------------------------------------------------------------- #
+# Helpers
+# ------------------------------------------------------------------- #
+def load_palette(path: Path) -> Dict[str, List[Dict[str, str]]]:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:  # noqa: BLE001
+        console.print_exception()
+        sys.exit(1)
 
-def generate_strip(colors, order, w, h, dest):
-    img = Image.new("RGB", (w * len(order), h))
-    for i, name in enumerate(order):
-        color = colors.get(name)
-        if not color:
-            print(f"[warn] {name} not found, skip")
+
+def yaml_order(path: Path, theme: str | None) -> List[str]:
+    data = yaml.safe_load(path.read_text()) if path.is_file() else {}
+    if theme and theme in data:
+        return data[theme]
+    return data.get("default", [])
+
+
+def heuristic_order(pal: dict, dark: bool) -> List[str]:
+    sem = [c["Name"] for c in pal["Semantic"]]
+    ui  = [c["Name"] for c in pal["UI"]]
+    txt = [c["Name"] for c in pal["Text"]]
+    ui_txt = ui + txt if dark else list(reversed(txt + ui))
+    return sem + ui_txt
+
+
+def build_strip(pal: dict, order: List[str], w: int, h: int, vertical: bool, out_png: Path) -> None:
+    colours = {c["Name"]: c["Hex"] for grp in pal.values() for c in grp}
+    total   = len(order)
+    width, height = (w, h * total) if vertical else (w * total, h)
+
+    strip = Image.new("RGB", (width, height), color="#000000")
+
+    for idx, name in enumerate(order):
+        if name not in colours:
+            console.print(f"[yellow]warning:[/yellow] {name!r} not found in palette — skipped")
             continue
-        block = Image.new("RGB", (w, h), color)
-        img.paste(block, (i * w, 0))
-    img.save(dest)
-    print(f"✓ saved {dest}")
+        block = Image.new("RGB", (w, h), colour := colours[name])
+        pos   = (0, idx * h) if vertical else (idx * w, 0)
+        strip.paste(block, pos)
+        console.print(f"  • {name:<12} {colour}")
 
-def main():
-    ap = argparse.ArgumentParser("Generate color strip")
-    ap.add_argument("palette", type=Path)
-    ap.add_argument("-o", "--out", type=Path, default=Path("strip.png"))
-    ap.add_argument("--width", type=int, default=20)
-    ap.add_argument("--height", type=int, default=50)
-    ap.add_argument("--theme-type", choices=["light","dark"], default="light",
-                    help="decides UI order")
-    args = ap.parse_args()
+    strip.save(out_png)
+    console.print(f"[green]Strip saved → {out_png}[/green]")
 
-    generate_strip(
-        load_colors(args.palette),
-        build_order(args.theme_type),
-        args.width, args.height, args.out
-    )
+
+# ------------------------------------------------------------------- #
+# CLI
+# ------------------------------------------------------------------- #
+def parse_args():
+    ap = argparse.ArgumentParser(description="Generate a colour‑strip PNG.")
+    ap.add_argument("palette", type=Path, help="Palette JSON.")
+    ap.add_argument("-o", "--order-file", type=Path, default=Path("strip.yaml"),
+                    help="YAML with one or more colour orders.")
+    ap.add_argument("-T", "--theme", help="Which key inside the YAML to use.")
+    ap.add_argument("-W", "--width",  type=int, default=20, help="Block width  (px).")
+    ap.add_argument("-H", "--height", type=int, default=50, help="Block height (px).")
+    ap.add_argument("--vertical", action="store_true", help="Vertical layout (default horizontal).")
+    ap.add_argument("--dark", action="store_true", help="Treat theme as dark when auto‑ordering.")
+    ap.add_argument("--out", type=Path, default=Path("strip.png"), help="Destination PNG.")
+    return ap.parse_args()
+
+
+def main() -> None:
+    a  = parse_args()
+    pal = load_palette(a.palette)
+
+    order = yaml_order(a.order_file, a.theme)
+    if not order:
+        console.print("[cyan]Using heuristic order.[/cyan]")
+        order = heuristic_order(pal, a.dark)
+
+    build_strip(pal, order, a.width, a.height, a.vertical, a.out)
+
 
 if __name__ == "__main__":
     main()

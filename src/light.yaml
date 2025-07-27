@@ -1,0 +1,28 @@
+# invoke with --order-file
+default:
+  - Rosewater
+  - Flamingo
+  - Pink
+  - Mauve
+  - Red
+  - Maroon
+  - Peach
+  - Yellow
+  - Green
+  - Teal
+  - Sky
+  - Sapphire
+  - Blue
+  - Lavender
+  - Base
+  - Mantle
+  - Crust
+  - Surface0
+  - Surface1
+  - Surface2
+  - Overlay0
+  - Overlay1
+  - Overlay2
+  - Subtext0
+  - Subtext1
+  - Text
