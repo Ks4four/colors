@@ -1,4 +1,4 @@
-# Priestess
+# Theresa
 
 - **角色:** 特蕾西娅
 - **出处:** 《明日方舟》 (Arknights)
@@ -31,7 +31,7 @@
 
 查看以下图片，这是不言自明的。
 
-![priestess-sample](./assets/sample.png)
+![theresa-sample](./assets/sample.png)
 
 ## 移植
 
