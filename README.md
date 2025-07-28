@@ -5,8 +5,6 @@
 > If anime avatar users are the best programmers, where are all the anime colorschemes?  
 > 如果用二次元头像的都是程序员大佬，那么二次元主题在哪？
 
-本项目采用 OpenAI o3。
-
 ## 使用
 
 以下角色的展示顺序按照创建顺序。
