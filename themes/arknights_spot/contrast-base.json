@@ -33,22 +33,22 @@
     },
     "rows": {
       "Rosewater": {
-        "ratio": 2.52,
+        "ratio": 3.07,
         "pass_normal": true,
         "pass_strict": null
       },
       "Flamingo": {
-        "ratio": 2.52,
+        "ratio": 3.01,
         "pass_normal": true,
         "pass_strict": null
       },
       "Pink": {
-        "ratio": 2.52,
+        "ratio": 2.8,
         "pass_normal": true,
         "pass_strict": null
       },
       "Mauve": {
-        "ratio": 2.51,
+        "ratio": 6.56,
         "pass_normal": true,
         "pass_strict": null
       },
@@ -88,12 +88,12 @@
         "pass_strict": null
       },
       "Sapphire": {
-        "ratio": 2.54,
+        "ratio": 2.87,
         "pass_normal": true,
         "pass_strict": null
       },
       "Blue": {
-        "ratio": 2.53,
+        "ratio": 5.2,
         "pass_normal": true,
         "pass_strict": null
       },

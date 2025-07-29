@@ -2,22 +2,22 @@
   "Semantic": [
     {
       "Name": "Rosewater",
-      "Hex": "#DC2E85",
+      "Hex": "#B63B7F",
       "Rationale": "基于原始色调，降低亮度从85%至52%以满足WCAG对比度（>=2.5，现为2.52）。"
     },
     {
       "Name": "Flamingo",
-      "Hex": "#E72747",
+      "Hex": "#D02244",
       "Rationale": "基于原始色调，降低亮度从70%至53%以满足WCAG对比度（>=2.5，现为2.52）。"
     },
     {
       "Name": "Pink",
-      "Hex": "#E12D69",
+      "Hex": "#CC3377",
       "Rationale": "基于原始色调，降低亮度从78%至53%以满足WCAG对比度（>=2.5，现为2.52）。"
     },
     {
       "Name": "Mauve",
-      "Hex": "#8C6AAF",
+      "Hex": "#4A2A6B",
       "Rationale": "基于原始色调，降低亮度从60%至55%以满足WCAG对比度（>=2.5，现为2.51）。"
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "Name": "Sapphire",
-      "Hex": "#0A7EBD",
+      "Hex": "#0073BE",
       "Rationale": "基于Blue色调，降低亮度，增加深度。"
     },
     {
       "Name": "Blue",
-      "Hex": "#007EC2",
+      "Hex": "#004C7A",
       "Rationale": "基于原始色调，降低亮度从49%至38%以满足WCAG对比度（>=2.5，现为2.53）。"
     },
     {
