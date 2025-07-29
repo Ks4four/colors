@@ -33,6 +33,10 @@
 
   [![theresa-icon](themes/arknights_theresa/assets/icon.png)![theresa-strip](themes/arknights_theresa/assets/strip.png)](themes/arknights_theresa/README.md)
 
+- [Shamare](themes/arknights_shamare/README.md), Arknights; Dark theme
+
+	[![shamare-icon](themes/arknights_shamare/assets/icon.png)![shamare-strip](themes/arknights_shamare/assets/strip.png)](themes/arknights_shamare/README.md)
+
 ## 思路
 
 要查看本项目的配色生成思路，请参考 [思路](docs/APPROACH.md)。

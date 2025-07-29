@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#F2CED5",
+      "Rationale": "Derived from the Red hue, this is the softest pink, representing the delicate, almost fragile side of Shamare's appearance beneath the curse."
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#EFB9C3",
+      "Rationale": "A slightly more saturated version of Rosewater, bridging the gap to the more vibrant pinks. It mirrors the lighter, softer tones in her hair."
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#E8A2C0",
+      "Rationale": "Directly derived from her hair's base color (#D8799C) by increasing brightness and saturation. This is the theme's core 'magic' color, reflecting her uncontrolled arts."
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#DDA6E3",
+      "Rationale": "Shifted slightly towards purple from the hair color and brightened. It represents the more mystical and spectral aspect of her powers, distinct yet related to Pink."
+    },
+    {
+      "Name": "Red",
+      "Hex": "#E591A2",
+      "Rationale": "A reddish-pink derived from her hair's hue. Designed as a clear but not overly harsh 'error' color that fits the palette's aesthetic."
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#B97C88",
+      "Rationale": "A darker, more desaturated version of Red. It reflects the dried-blood or aged-curse element of her lore, suitable for less critical warnings."
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#E8B49A",
+      "Rationale": "Derived from her vest color (#A87070). The hue is shifted towards orange and significantly brightened to create a warm, contrasting accent color."
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#F0D591",
+      "Rationale": "Based on the gold tag on her harness. The brightness is increased for excellent legibility for strings or constants against the dark background."
+    },
+    {
+      "Name": "Green",
+      "Hex": "#A9D8B8",
+      "Rationale": "A muted, desaturated mint green, created via color theory to be a calming, complementary color to the dominant purples and pinks without clashing."
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#9ACECF",
+      "Rationale": "A desaturated, cyan-leaning color designed to fit within the spectral theme. It evokes a ghostly, ethereal light."
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#B3CBF2",
+      "Rationale": "A brighter, softer blue than the others, reminiscent of a hazy, overcast sky over the cursed island—a glimmer of distance."
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#8793C2",
+      "Rationale": "A darker, more serious blue derived from the palette's cool tones. It provides a stable, professional blue that still feels connected to the theme."
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#A6B3E3",
+      "Rationale": "A general-purpose blue with a purplish undertone to maintain consistency with the overall palette, making it feel native to Shamare's world."
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#B8A9C3",
+      "Rationale": "Directly inspired by the muted purple of her ankle straps (#76657F) and brightened for semantic use. It's the most literal purple accent in the theme."
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#E2DCEC",
+      "Rationale": "Sampled from the brightest areas of her white blouse. Its subtle lavender tint ensures it's soft on the eyes and harmonious with the background."
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#BCB3C9",
+      "Rationale": "Derived by applying the relative HSL gradient from the Catppuccin example to the base Text. This is the primary color for comments and UI hints."
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#CFC5DD",
+      "Rationale": "Derived by applying the relative HSL gradient from the Catppuccin example. Sits between Text and Subtext0 for a smooth typographic hierarchy."
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#3A314A",
+      "Rationale": "The foundation, extracted from the darkest shadows of her dress. This deep, murky purple sets the 'haunted island at dusk' mood."
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#322B41",
+      "Rationale": "A slightly darker and less saturated version of Base, following the Catppuccin gradient logic. Ideal for recessed UI elements like sidebars."
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#2A2436",
+      "Rationale": "The darkest tone in the palette, derived from Base via the Catppuccin gradient. Perfect for the absolute lowest layer, like the application frame or status bar."
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#4A435A",
+      "Rationale": "A step brighter than Base, following the Catppuccin gradient. This serves as the primary surface for floating elements like pop-up menus."
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#5B536C",
+      "Rationale": "A brighter surface color, derived from the established gradient. Used for highlighted or hovered items, such as a selected line in the file explorer."
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#6C647D",
+      "Rationale": "An even brighter surface, following the gradient. Useful for more prominent hovered elements or active selections."
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#817896",
+      "Rationale": "A semi-transparent overlay color, brighter than surfaces. Used for UI elements that need to stand out, like search highlights or selection borders."
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#9288A8",
+      "Rationale": "A more opaque overlay color, following the gradient. Ideal for interactive elements like input field borders or subtle button highlights."
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#A89FBD",
+      "Rationale": "The most prominent overlay color before reaching text levels. Perfect for focused elements, like an active tab border or a draggable slider."
+    }
+  ]
+}
