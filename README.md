@@ -37,6 +37,10 @@
 
 	[![shamare-icon](themes/arknights_shamare/assets/icon.png)![shamare-strip](themes/arknights_shamare/assets/strip.png)](themes/arknights_shamare/README.md)
 
+- [Spot](themes/arknights_spot/README.md), Arknights; Light theme
+
+	[![spot-icon](themes/arknights_spot/assets/icon.png)![spot-strip](themes/arknights_spot/assets/strip.png)](themes/arknights_spot/README.md)
+
 ## 思路
 
 要查看本项目的配色生成思路，请参考 [思路](docs/APPROACH.md)。

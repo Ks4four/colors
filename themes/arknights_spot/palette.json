@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#DC2E85",
+      "Rationale": "基于原始色调，降低亮度从85%至52%以满足WCAG对比度（>=2.5，现为2.52）。"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#E72747",
+      "Rationale": "基于原始色调，降低亮度从70%至53%以满足WCAG对比度（>=2.5，现为2.52）。"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#E12D69",
+      "Rationale": "基于原始色调，降低亮度从78%至53%以满足WCAG对比度（>=2.5，现为2.52）。"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#8C6AAF",
+      "Rationale": "基于原始色调，降低亮度从60%至55%以满足WCAG对比度（>=2.5，现为2.51）。"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#CC3333",
+      "Rationale": "用于错误或警告的标准红色，略微柔和以符合整体调性。"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#7A1F1F",
+      "Rationale": "基于Red色调，降低亮度，增加深度。"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#B85E05",
+      "Rationale": "基于原始色调，降低亮度从52%至37%以满足WCAG对比度（>=2.5，现为2.59）。"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#947400",
+      "Rationale": "基于原始色调，降低亮度从56%至29%以满足WCAG对比度（>=2.5，现为2.53）。"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#528439",
+      "Rationale": "基于原始色调，降低亮度从50%至37%以满足WCAG对比度（>=2.5，现为2.55）。"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#1937E1",
+      "Rationale": "基于Blue色调，向绿色偏移，增加自然感。"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#0C74E4",
+      "Rationale": "基于原始色调，降低亮度从69%至47%以满足WCAG对比度（>=2.5，现为2.60）。"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#0A7EBD",
+      "Rationale": "基于Blue色调，降低亮度，增加深度。"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#007EC2",
+      "Rationale": "基于原始色调，降低亮度从49%至38%以满足WCAG对比度（>=2.5，现为2.53）。"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#8F63BB",
+      "Rationale": "基于原始色调，降低亮度从80%至56%以满足WCAG对比度（>=2.5，现为2.58）。"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#222222",
+      "Rationale": "从角色深色衣物中提取，作为文本主色。"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#1A1A1A",
+      "Rationale": "基于Text色，根据'数字越大则越暗'的规则调整亮度，用于次级文本。"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#121212",
+      "Rationale": "基于Text色，根据'数字越大则越暗'的规则调整亮度，用于次级文本。"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#C4C4C4",
+      "Rationale": "从角色面部和衣物浅灰色调中提取，作为背景基色。"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#BDBDBD",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#B5B5B5",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#A6A6A6",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#969696",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#878787",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#787878",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#696969",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#595959",
+      "Rationale": "基于Base色，应用Catppuccin Latte的HSL相对增量，用于UI层级，数字越大颜色越深。"
+    }
+  ]
+}
