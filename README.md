@@ -35,11 +35,15 @@
 
 - [Shamare](themes/arknights_shamare/README.md), Arknights; Dark theme
 
-	[![shamare-icon](themes/arknights_shamare/assets/icon.png)![shamare-strip](themes/arknights_shamare/assets/strip.png)](themes/arknights_shamare/README.md)
+  [![shamare-icon](themes/arknights_shamare/assets/icon.png)![shamare-strip](themes/arknights_shamare/assets/strip.png)](themes/arknights_shamare/README.md)
 
 - [Spot](themes/arknights_spot/README.md), Arknights; Light theme
 
-	[![spot-icon](themes/arknights_spot/assets/icon.png)![spot-strip](themes/arknights_spot/assets/strip.png)](themes/arknights_spot/README.md)
+  [![spot-icon](themes/arknights_spot/assets/icon.png)![spot-strip](themes/arknights_spot/assets/strip.png)](themes/arknights_spot/README.md)
+
+- [Myrtle (bustling festival)](themes/arknights_myrtle_bustling-festival/README.md), Arknights; Light theme
+
+  [![myrtle-bustling-festival-icon](themes/arknights_myrtle_bustling-festival/assets/icon.png)![myrtle-bustling-festival-strip](themes/arknights_myrtle_bustling-festival/assets/strip.png)](themes/arknights_myrtle_bustling-festival/README.md)
 
 ## 思路
 

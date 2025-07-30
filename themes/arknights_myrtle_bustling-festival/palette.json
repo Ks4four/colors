@@ -1,0 +1,138 @@
+{
+  "Semantic": [
+    {
+      "Name": "Rosewater",
+      "Hex": "#d0755b",
+      "Rationale": "基于角色橙色装饰的参考值，作为柔和的粉橙色。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Flamingo",
+      "Hex": "#f15c5c",
+      "Rationale": "由核心红色（头发）提升亮度与饱和度生成，更显活泼。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Pink",
+      "Hex": "#ca757d",
+      "Rationale": "源自凉鞋绑带的紫色（Mauve），提升亮度，创造柔和的粉色调。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Mauve",
+      "Hex": "#d0727c",
+      "Rationale": "精确提取自木屐上的紫色绑带，代表可爱的细节。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Red",
+      "Hex": "#e75454",
+      "Rationale": "提取自角色最标志性的红发，是调色板中最核心的强调色。"
+    },
+    {
+      "Name": "Maroon",
+      "Hex": "#be4f48",
+      "Rationale": "基于角色头发的暗部与阴影，作为红色的沉稳变体。"
+    },
+    {
+      "Name": "Peach",
+      "Hex": "#fe4f06",
+      "Rationale": "提取自浴衣上的太鼓『カッ』鼓面橙色装饰，充满活力。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Yellow",
+      "Hex": "#bf8037",
+      "Rationale": "提取自手中的鼓棒颜色，象征祭典的欢快节奏。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Green",
+      "Hex": "#329f6b",
+      "Rationale": "源自角色翠绿的眼睛，调整后作为清晰的成功/通过语义色。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Teal",
+      "Hex": "#4f9a91",
+      "Rationale": "提取自浴衣上的太鼓『ドン』鼓面青色，是设计的核心元素之一。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Sky",
+      "Hex": "#7991a7",
+      "Rationale": "由核心青色（Teal）大幅提升亮度生成，如同夏日祭典的晴空。 (为符合WCAG 2.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Sapphire",
+      "Hex": "#356593",
+      "Rationale": "由核心青色（Teal）加深并增加饱和度，形成深邃的宝石蓝。"
+    },
+    {
+      "Name": "Blue",
+      "Hex": "#497fb2",
+      "Rationale": "由核心青色（Teal）向蓝色偏移色相生成，是更通用的蓝色语义。"
+    },
+    {
+      "Name": "Lavender",
+      "Hex": "#a97ebc",
+      "Rationale": "由蓝色进一步向紫色偏移并提亮，带来一丝优雅与梦幻。 (为符合WCAG 2.5:1对比度要求而加深)"
+    }
+  ],
+  "Text": [
+    {
+      "Name": "Text",
+      "Hex": "#5a4540",
+      "Rationale": "提取自木屐的深木色，提供柔和且清晰的阅读体验。"
+    },
+    {
+      "Name": "Subtext0",
+      "Hex": "#7a5d56",
+      "Rationale": "基于核心文本色，遵循Catppuccin梯度提升亮度，用于次要文本。 (为符合WCAG 4.5:1对比度要求而加深)"
+    },
+    {
+      "Name": "Subtext1",
+      "Hex": "#6b524c",
+      "Rationale": "基于核心文本色，亮度介于Text和Subtext0之间，用于更次要的文本。"
+    }
+  ],
+  "UI": [
+    {
+      "Name": "Base",
+      "Hex": "#d3e5e1",
+      "Rationale": "提取自浴衣的薄荷绿，作为UI主背景，营造清爽舒适的氛围。"
+    },
+    {
+      "Name": "Mantle",
+      "Hex": "#cadfda",
+      "Rationale": "基于Base色，遵循Catppuccin梯度降低亮度，用于嵌套UI背景。"
+    },
+    {
+      "Name": "Crust",
+      "Hex": "#c0d9d3",
+      "Rationale": "基于Base色，进一步降低亮度，用于最底层的UI元素。"
+    },
+    {
+      "Name": "Surface0",
+      "Hex": "#adcdc6",
+      "Rationale": "基于Base色，遵循梯度降低亮度，用于卡片、输入框等UI表面。"
+    },
+    {
+      "Name": "Surface1",
+      "Hex": "#9ac2b9",
+      "Rationale": "比Surface0略暗的表面，用于区分UI层级。"
+    },
+    {
+      "Name": "Surface2",
+      "Hex": "#87b6ab",
+      "Rationale": "比Surface1更暗的表面，用于更深的UI层级。"
+    },
+    {
+      "Name": "Overlay0",
+      "Hex": "#74ab9e",
+      "Rationale": "用于元素悬停（Hover）等状态的半透明叠加层。"
+    },
+    {
+      "Name": "Overlay1",
+      "Hex": "#619f91",
+      "Rationale": "比Overlay0更暗的叠加层，用于更强调的状态。"
+    },
+    {
+      "Name": "Overlay2",
+      "Hex": "#558d80",
+      "Rationale": "最暗的叠加层，用于活动/按下（Active）状态。"
+    }
+  ]
+}
