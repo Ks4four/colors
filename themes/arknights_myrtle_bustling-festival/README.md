@@ -4,11 +4,13 @@
 - **出处:** 《明日方舟》 (Arknights)
 - **别名:** `天人花` (CN), `Myrtle` (EN), `テンニンカ` (JP)
 - **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/myrtle_(arknights)>), [PRTS](https://prts.wiki/w/%E6%A1%83%E9%87%91%E5%A8%98)
-- **序号:** `# `
+- **序号:** `#9`
 
 ---
 
 > `桃金娘（繁闹祭典）` 是这个项目的第 9 个角色。
+>
+> 本来是想做一个 Dark theme 的，但是并没有一个好的背景色，所以直接做 Light theme。
 
 ## 配色
 
