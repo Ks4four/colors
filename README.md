@@ -47,7 +47,7 @@
 
 - [Rosmontis](themes/arknights_rosmontis/README.md), Arknights; Dark theme
 
- [![rosmontis-icon](themes/arknights_rosmontis/assets/icon.png)![rosmontis-strip](themes/arknights_rosmontis/assets/strip.png)](themes/arknights_rosmontis/README.md)
+  [![rosmontis-icon](themes/arknights_rosmontis/assets/icon.png)![rosmontis-strip](themes/arknights_rosmontis/assets/strip.png)](themes/arknights_rosmontis/README.md)
 
 ## 思路
 
