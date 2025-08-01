@@ -45,7 +45,7 @@
 
   [![myrtle-bustling-festival-icon](themes/arknights_myrtle_bustling-festival/assets/icon.png)![myrtle-bustling-festival-strip](themes/arknights_myrtle_bustling-festival/assets/strip.png)](themes/arknights_myrtle_bustling-festival/README.md)
 
-- [Rosmontis](themes/arknights_rosmontis/README.md), Arknights; Dark theme
+- [Rosmontis](themes/arknights_rosmontis/README.md), Arknights; Light theme
 
   [![rosmontis-icon](themes/arknights_rosmontis/assets/icon.png)![rosmontis-strip](themes/arknights_rosmontis/assets/strip.png)](themes/arknights_rosmontis/README.md)
 

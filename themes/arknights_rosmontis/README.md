@@ -3,7 +3,7 @@
 - **角色:** 迷迭香
 - **出处:** Arknights
 - **别名:** `纳西莎` (CN), `Rosmontis`、`Narcissa` (EN), `ロスモンティス`、`ナルシッサ` (JP)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/rosmontis_(arknights)>), [PRTS](<https://prts.wiki/w/%E8%BF%B7%E8%BF%AD%E9%A6%99>)
+- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/rosmontis_(arknights)>), [PRTS](https://prts.wiki/w/%E8%BF%B7%E8%BF%AD%E9%A6%99)
 - **序号:** `#10`
 
 ---
