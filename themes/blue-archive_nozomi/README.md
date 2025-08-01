@@ -1,39 +1,39 @@
 # nozomi
 
-- **角色:** 橘ノゾミ (たちばなのぞみ)
-- **出处:** ブルーアーカイブ (Blue Archive)
-- **别名:** `Tachibana Nozomi` (EN), `橘望`、`橘希望` (CN)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/nozomi_(blue_archive)>), [ピクシブ百科事典](https://dic.pixiv.net/a/%E6%A9%98%E3%83%8E%E3%82%BE%E3%83%9F)
-- **序号:** `#1`
+- **Character:** 橘ノゾミ (Tachibana Nozomi)
+- **Source:** ブルーアーカイブ (Blue Archive)
+- **Alias:** `Tachibana Nozomi` (EN), `橘望`, `橘希望` (CN)
+- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/nozomi_(blue_archive)>), [Pixiv Encyclopedia](https://dic.pixiv.net/a/%E6%A9%98%E3%83%8E%E3%82%BE%E3%83%9F)
+- **Index:** `#1`
 
 ---
 
-> 她的特殊性仅限于她是第一个。\
-> 不像 Neovim 对于 Catppuccin 的重要性，nozomi 单纯就是第一个。\
-> 正因为如此，如果她没有存在过，那么也会有别的角色当作第一个。
+> Her only specialty is that she was the first.
+> Unlike the importance of Catppuccin to Neovim, nozomi was simply the first.
+> Because of this, if she had not existed, another character would have been the first.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
 
-## 移植
+## Porting
 
 ### Neovim
 
 <details>
-  <summary>作为 catppuccin 的 frappe flavor</summary>
+  <summary>As catppuccin's frappe flavor</summary>
 
 ```lua
 require("catppuccin").setup {

@@ -1,37 +1,37 @@
 # Rosmontis
 
-- **角色:** 迷迭香
-- **出处:** Arknights
-- **别名:** `纳西莎` (CN), `Rosmontis`、`Narcissa` (EN), `ロスモンティス`、`ナルシッサ` (JP)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/rosmontis_(arknights)>), [PRTS](https://prts.wiki/w/%E8%BF%B7%E8%BF%AD%E9%A6%99)
-- **序号:** `#10`
+- **Character:** Rosmontis
+- **Source:** Arknights
+- **Alias:** `纳西莎` (CN), `Rosmontis`, `Narcissa` (EN), `ロスモンティス`, `ナルシッサ` (JP)
+- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/rosmontis_(arknights)>), [PRTS](https://prts.wiki/w/%E8%BF%B7%E8%BF%AD%E9%A6%99)
+- **Index:** `#10`
 
 ---
 
-> `迷迭香` 是这个项目的第 10 个角色。
+> `Rosmontis` is the 10th character in this project.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
 
-## 移植
+## Porting
 
 ### Neovim
 
 <details>
-	<summary>作为 catppuccin 的 latte flavor</summary>
+	<summary>As catppuccin's latte flavor</summary>
 
 ```lua
 require("catppuccin").setup {

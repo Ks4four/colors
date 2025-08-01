@@ -1,12 +1,13 @@
-# AAA Color Scheme Wholesale
+# AAA 配色批发
 
-A project about how ordinary people (non-programmers, non-designers) can convert anime characters into color themes for their tools.
+一个关于普通人（非程序员、非设计师）如何将动漫角色转换为工具颜色主题的项目。
 
 > If anime avatar users are the best programmers, where are all the anime colorschemes?
+> 如果用二次元头像的都是程序员大佬，那么二次元主题在哪？
 
-## Usage
+## 使用
 
-The following characters are displayed in the order they were created.
+以下角色的展示顺序按照创建顺序。
 
 - [Tachibana Nozomi](themes/blue-archive_nozomi/README.md), Blue Archive; Dark theme
 
@@ -48,10 +49,10 @@ The following characters are displayed in the order they were created.
 
   [![rosmontis-icon](themes/arknights_rosmontis/assets/icon.png)![rosmontis-strip](themes/arknights_rosmontis/assets/strip.png)](themes/arknights_rosmontis/README.md)
 
-## Approach
+## 思路
 
-To see the color scheme generation approach for this project, please refer to [Approach](docs/en/APPROACH.md).
+要查看本项目的配色生成思路，请参考 [思路](docs/APPROACH.md)。
 
-## Porting
+## 移植
 
-To see simple porting ideas for common software, please refer to [Porting](docs/en/PORTING.md).
+要查看常用软件的简单移植思路，请参考 [移植](docs/PORTING.md)。

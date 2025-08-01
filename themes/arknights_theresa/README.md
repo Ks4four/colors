@@ -1,46 +1,46 @@
 # Theresa
 
-- **角色:** 特蕾西娅
-- **出处:** 《明日方舟》 (Arknights)
-- **别名:** `魔王` (CN), `Theresa` (EN), `テレジア` (JP)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_theresa>), [萌娘百科](<https://zh.moegirl.org.cn/zh-hans/%E7%89%B9%E8%95%BE%E8%A5%BF%E5%A8%85(%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F)>)
-- **序号:** `#6`
+- **Character:** Theresa
+- **Source:** Arknights
+- **Alias:** `魔王` (CN), `Theresa` (EN), `テレジア` (JP)
+- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_theresa>), [Moegirlpedia](<https://zh.moegirl.org.cn/zh-hans/%E7%89%B9%E8%95%BE%E8%A5%BF%E5%A8%85(%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F)>)
+- **Index:** `#6`
 
 ---
 
-> `特蕾西娅` 是这个项目的第 6 个角色。
+> `Theresa` is the 6th character in this project.
 >
-> 第一版和 [Rosé Pine](https://rosepinetheme.com/) 长得非常像，去黄加红了才算可行。\
-> 第二版又不够粉。粉其实是变深的意思，但是还是尽可能在对比度能接受的范围调整了。
-> 
-> 做这个角色在语义上是和 [上一个角色](../arknights_priestess/README.md) 有联系的，俗话说就是“顺便做了”。
+> The first version looked very similar to [Rosé Pine](https://rosepinetheme.com/), so I removed yellow and added red to make it feasible.
+> The second version was not pink enough. Pink actually means darker, but I adjusted it as much as possible within the acceptable contrast range.
 >
-> 有趣的是，Base 和 Subtext0 的对比度并没有达到 4.5:1。再次查看立绘之后，我决定不予修复。
+> Making this character is semantically related to the [previous character](../arknights_priestess/README.md), as the saying goes, "did it along the way".
 >
-> 2025-07-27 拉开了 Pink 和 Rosewater。
+> Interestingly, the contrast between Base and Subtext0 did not reach 4.5:1. After reviewing the character art again, I decided not to fix it.
+>
+> 2025-07-27 Pulled Pink and Rosewater apart.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
 
-## 移植
+## Porting
 
 ### Neovim
 
 <details>
-	<summary>作为 catppuccin 的 latte flavor</summary>
+	<summary>As catppuccin's latte flavor</summary>
 
 ```lua
 require("catppuccin").setup {

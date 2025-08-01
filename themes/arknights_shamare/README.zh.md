@@ -1,37 +1,37 @@
 # Shamare
 
-- **Character:** Shamare
-- **Source:** Arknights
-- **Alias:** `Shamare` (EN), `シャマレ` (JP)
-- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/shamare_(arknights)>), [PRTS](https://prts.wiki/w/%E5%B7%AB%E6%81%8B)
-- **Index:** `#7`
+- **角色:** 巫恋
+- **出处:** 《明日方舟》 (Arknights)
+- **别名:** `Shamare` (EN), `シャマレ` (JP)
+- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/shamare_(arknights)>), [PRTS](https://prts.wiki/w/%E5%B7%AB%E6%81%8B)
+- **序号:** `#7`
 
 ---
 
-> `Shamare` is the 7th character in this project.
+> `巫恋` 是这个项目的第 7 个角色。
 
-## Palette
+## 配色
 
-The complete color data is stored in the [JSON](./palette.json) file.
+完整的色彩数据存储在 [JSON](./palette.json) 文件中。
 
-The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
+适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
 
-### Matrix
+### 矩阵
 
-The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
+对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
 
-### Source
+### 来源
 
-Look at the following image, it's self-explanatory.
+查看以下图片，这是不言自明的。
 
 ![sample](./assets/sample.png)
 
-## Porting
+## 移植
 
 ### Neovim
 
 <details>
-	<summary>As catppuccin's frappe flavor</summary>
+	<summary>作为 catppuccin 的 frappe flavor</summary>
 
 ```lua
 require("catppuccin").setup {

@@ -1,30 +1,29 @@
 # myrtle (bustling festival)
 
-- **角色:** 桃金娘（繁闹祭典）
-- **出处:** 《明日方舟》 (Arknights)
-- **别名:** `天人花` (CN), `Myrtle` (EN), `テンニンカ` (JP)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/myrtle_(arknights)>), [PRTS](https://prts.wiki/w/%E6%A1%83%E9%87%91%E5%A8%98)
-- **序号:** `#9`
+- **Character:** Myrtle (Bustling Festival)
+- **Source:** Arknights
+- **Alias:** `天人花` (CN), `Myrtle` (EN), `テンニンカ` (JP)
+- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/myrtle_(arknights)>), [PRTS](https://prts.wiki/w/%E6%A1%83%E9%87%91%E5%A8%98)
+- **Index:** `#9`
 
 ---
 
-> `桃金娘（繁闹祭典）` 是这个项目的第 9 个角色。
+> `Myrtle (Bustling Festival)` is the 9th character in this project.
 >
-> 本来是想做一个 Dark theme 的，但是并没有一个好的背景色，所以直接做 Light theme。
+> I originally wanted to make a Dark theme, but there wasn't a good background color, so I went straight for a Light theme.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
-

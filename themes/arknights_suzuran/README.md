@@ -1,41 +1,41 @@
 # Suzuran
 
-- **角色:** 铃兰
-- **出处:** 《明日方舟》 (Arknights)
-- **别名:** `丽萨`（本名）, `Suzuran`、`Lisa` (EN), `スズラン`、`リサ` (JP)
-- **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_suzuran>), [PRTS](https://prts.wiki/w/%E9%93%83%E5%85%B0)
-- **序号:** `#2`
+- **Character:** Suzuran
+- **Source:** Arknights
+- **Alias:** `Lisa` (Real Name), `Suzuran`, `Lisa` (EN), `スズラン`, `リサ` (JP)
+- **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_suzuran>), [PRTS](https://prts.wiki/w/%E9%93%83%E5%85%B0)
+- **Index:** `#2`
 
 ---
 
-> 铃兰是这个项目的第 3 个角色。
+> Suzuran is the 3rd character in this project.
 >
-> 这次尝试做一个 light theme，挑上铃兰（或所谓的“大家的光”）算是合适的。然而，可能是因为 o3 的模型更熟悉 dark theme 的用法，导致我多次尝试 prompt，都未能选出理想的语义化颜色。\
-> 一开始我是喂了她的 4 个时装进去的，但是这直接导致 o3 的 python 环境崩溃，导致它一直重启它的环境，最后思考时间超过 12 分钟之后直接卡死，过程非常有趣。\
-> 后来，我改为仅使用她的默认时装，这才基本成功。
+> This time I tried to make a light theme, and choosing Suzuran (or the so-called "everyone's light") was appropriate. However, perhaps because the o3 model is more familiar with the usage of dark themes, I tried the prompt multiple times but failed to select the ideal semantic colors.
+> At first, I fed it her 4 outfits, but this directly caused the o3 python environment to crash, causing it to keep restarting its environment, and finally it got stuck after thinking for more than 12 minutes, which was a very interesting process.
+> Later, I switched to using only her default outfit, and it was basically successful.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
 
-## 移植
+## Porting
 
 ### Neovim
 
 <details>
-  <summary>作为 catppuccin 的 latte flavor</summary>
+  <summary>As catppuccin's latte flavor</summary>
 
 ```lua
 require("catppuccin").setup {
@@ -71,3 +71,4 @@ require("catppuccin").setup {
     }
 }
 ```
+</details>

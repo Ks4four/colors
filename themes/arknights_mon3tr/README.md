@@ -1,40 +1,40 @@
 # mon3tr
 
-- **角色:** Mon3tr
-- **出处:** 《明日方舟》 (Arknights)
-- **别名:** 读作 “Monster”
-- **参考:** [Donmai Wiki](https://donmai.moe/wiki_pages/arknights_mon3tr), [PRTS](https://prts.wiki/w/Mon3tr)
-- **序号:** `#2`
+- **Character:** Mon3tr
+- **Source:** Arknights
+- **Alias:** Read as "Monster"
+- **Reference:** [Donmai Wiki](https://donmai.moe/wiki_pages/arknights_mon3tr), [PRTS](https://prts.wiki/w/Mon3tr)
+- **Index:** `#2`
 
 ---
 
-> 我对绿色角色没有特别的喜好，只是她碰巧是绿色，并且有一个和 nozomi 的 base 不一样的颜色。
-> 我需要了解在绿色情况下这个 prompt 的鲁棒性。
+> I don't have a particular preference for green characters, it's just that she happens to be green and has a different base color from Nozomi.
+> I need to understand the robustness of this prompt in a green scenario.
 >
-> 2025-07-23: 在添加了 [凯尔希](../arknights_kaltsit/README.md) 后重做了 Mon3tr 的配色。这在语义上其实是难以理解的。
+> 2025-07-23: Reworked Mon3tr's color scheme after adding [Kal'tsit](../arknights_kaltsit/README.md). This is semantically difficult to understand.
 
-## 配色
+## Palette
 
-完整的色彩数据存储在 [JSON](./palette.json) 文件中。
+The complete color data is stored in the [JSON](./palette.json) file.
 
-适用于 Whiskers 的 JSON 格式存储在 [palette-whiskers.json](./palette-whiskers.json) 中。
+The JSON format suitable for Whiskers is stored in [palette-whiskers.json](./palette-whiskers.json).
 
-### 矩阵
+### Matrix
 
-对比度矩阵分析的原始数据为 [JSON 格式](./contrast-matrix.json)（另提供一份 [仅与 base 对比的版本](./contrast-base.json)），同时也提供了一份更易于阅读的 [Markdown 版本](./contrast-report.md)。
+The raw data for the contrast matrix analysis is in [JSON format](./contrast-matrix.json) (another version with [only base comparison](./contrast-base.json) is also provided), and a more readable [Markdown version](./contrast-report.md) is also available.
 
-### 来源
+### Source
 
-查看以下图片，这是不言自明的。
+Look at the following image, it's self-explanatory.
 
 ![sample](./assets/sample.png)
 
-## 移植
+## Porting
 
 ### Neovim
 
 <details>
-  <summary>作为 catppuccin 的 mocha flavor</summary>
+  <summary>As catppuccin's mocha flavor</summary>
 
 ```lua
 require("catppuccin").setup {
