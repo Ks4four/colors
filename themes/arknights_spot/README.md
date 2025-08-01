@@ -2,7 +2,7 @@
 
 - **Character:** Spot
 - **Source:** Arknights
-- **Alias:** `Bukar Bornu` (Real Name), `Spot`, `Bukar Bornu` (EN), `スポット` (JP)
+- **Alias:** `斑点` (CN), `伯克依·博尔努` (Real Name), `Spot`, `Bukar Bornu` (EN), `スポット` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/spot_(arknights)>), [PRTS](https://prts.wiki/w/%E6%96%91%E7%82%B9)
 - **Index:** `#8`
 

@@ -2,7 +2,7 @@
 
 - **Character:** Mon3tr
 - **Source:** Arknights
-- **Alias:** Read as "Monster"
+- **Alias:** Read as `Monster`
 - **Reference:** [Donmai Wiki](https://donmai.moe/wiki_pages/arknights_mon3tr), [PRTS](https://prts.wiki/w/Mon3tr)
 - **Index:** `#2`
 
@@ -10,8 +10,6 @@
 
 > I don't have a particular preference for green characters, it's just that she happens to be green and has a different base color from Nozomi.
 > I need to understand the robustness of this prompt in a green scenario.
->
-> 2025-07-23: Reworked Mon3tr's color scheme after adding [Kal'tsit](../arknights_kaltsit/README.md). This is semantically difficult to understand.
 
 ## Palette
 

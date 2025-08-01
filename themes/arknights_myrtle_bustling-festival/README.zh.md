@@ -2,7 +2,7 @@
 
 - **角色:** 桃金娘（繁闹祭典）
 - **出处:** 《明日方舟》 (Arknights)
-- **别名:** `天人花` (CN), `Myrtle` (EN), `テンニンカ` (JP)
+- **别名:** `Myrtle (Bustling Festival)` (EN), `テンニンカ (にぎやかなお祭り)` (JP)
 - **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/myrtle_(arknights)>), [PRTS](https://prts.wiki/w/%E6%A1%83%E9%87%91%E5%A8%98)
 - **序号:** `#9`
 

@@ -1,6 +1,6 @@
 # Kal'tsit
 
-- **角色:** 凯尔希 (Kal'tsit)
+- **角色:** 凯尔希
 - **出处:** 《明日方舟》 (Arknights)
 - **别名:** `Kal'tsit` (EN), `ケルシー` (JP)
 - **参考:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_kaltsit>), [PRTS](https://prts.wiki/w/%E5%87%AF%E5%B0%94%E5%B8%8C)

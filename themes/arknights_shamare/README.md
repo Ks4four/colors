@@ -2,7 +2,7 @@
 
 - **Character:** Shamare
 - **Source:** Arknights
-- **Alias:** `Shamare` (EN), `シャマレ` (JP)
+- **Alias:** `巫恋` (CN), `Shamare` (EN), `シャマレ` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/shamare_(arknights)>), [PRTS](https://prts.wiki/w/%E5%B7%AB%E6%81%8B)
 - **Index:** `#7`
 

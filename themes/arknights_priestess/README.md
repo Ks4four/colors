@@ -2,7 +2,7 @@
 
 - **Character:** Priestess
 - **Source:** Arknights
-- **Alias:** `Priestess` (EN), `プリースティス` (JP)
+- **Alias:** `普瑞赛斯` (CN), `Priestess` (EN), `プリースティス` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_priestess>), [Moegirlpedia](https://zh.moegirl.org.cn/zh-hans/%E6%99%AE%E7%91%9E%E8%B5%9B%E6%96%AF)
 - **Index:** `#5`
 

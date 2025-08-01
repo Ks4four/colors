@@ -2,7 +2,7 @@
 
 - **角色:** Mon3tr
 - **出处:** 《明日方舟》 (Arknights)
-- **别名:** 读作 “Monster”
+- **别名:** 读作 `Monster`
 - **参考:** [Donmai Wiki](https://donmai.moe/wiki_pages/arknights_mon3tr), [PRTS](https://prts.wiki/w/Mon3tr)
 - **序号:** `#2`
 

@@ -2,7 +2,7 @@
 
 - **Character:** Kal'tsit
 - **Source:** Arknights
-- **Alias:** `Kal'tsit` (EN), `ケルシー` (JP)
+- **Alias:** `凯尔希` (CN), `Kal'tsit` (EN), `ケルシー` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_kaltsit>), [PRTS](https://prts.wiki/w/%E5%87%AF%E5%B0%94%E5%B8%8C)
 - **Index:** `#4`
 

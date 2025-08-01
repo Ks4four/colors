@@ -2,7 +2,7 @@
 
 - **Character:** Myrtle (Bustling Festival)
 - **Source:** Arknights
-- **Alias:** `天人花` (CN), `Myrtle` (EN), `テンニンカ` (JP)
+- **Alias:** `桃金娘（繁闹祭典）` (CN), `Myrtle (Bustling Festival)` (EN), `テンニンカ (にぎやかなお祭り)` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/myrtle_(arknights)>), [PRTS](https://prts.wiki/w/%E6%A1%83%E9%87%91%E5%A8%98)
 - **Index:** `#9`
 

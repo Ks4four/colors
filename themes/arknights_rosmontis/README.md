@@ -2,7 +2,7 @@
 
 - **Character:** Rosmontis
 - **Source:** Arknights
-- **Alias:** `纳西莎` (CN), `Rosmontis`, `Narcissa` (EN), `ロスモンティス`, `ナルシッサ` (JP)
+- **Alias:** `迷迭香` (CN), `纳西莎` (Real name), `Rosmontis`, `Narcissa` (EN), `ロスモンティス`, `ナルシッサ` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/rosmontis_(arknights)>), [PRTS](https://prts.wiki/w/%E8%BF%B7%E8%BF%AD%E9%A6%99)
 - **Index:** `#10`
 

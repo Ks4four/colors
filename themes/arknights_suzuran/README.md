@@ -2,7 +2,7 @@
 
 - **Character:** Suzuran
 - **Source:** Arknights
-- **Alias:** `Lisa` (Real Name), `Suzuran`, `Lisa` (EN), `スズラン`, `リサ` (JP)
+- **Alias:** `铃兰` (CN), `丽萨` (Real Name), `Suzuran`, `Lisa` (EN), `スズラン`, `リサ` (JP)
 - **Reference:** [Donmai Wiki](<https://donmai.moe/wiki_pages/arknights_suzuran>), [PRTS](https://prts.wiki/w/%E9%93%83%E5%85%B0)
 - **Index:** `#2`
 

@@ -2,7 +2,6 @@
 
 一个关于普通人（非程序员、非设计师）如何将动漫角色转换为工具颜色主题的项目。
 
-> If anime avatar users are the best programmers, where are all the anime colorschemes?
 > 如果用二次元头像的都是程序员大佬，那么二次元主题在哪？
 
 ## 使用
